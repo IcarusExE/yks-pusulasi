@@ -10,6 +10,8 @@ Rust + Leptos + WebAssembly ile hazırlanmış, verileri yalnızca tarayıcıdak
 - Günlük çalışmalar, haftalık tekrar, tikleme ve düzenlenebilir haftalık program taslağı
 - Çalışmayı başka güne taşıma; haftalık seride yalnızca seçilen tekrarın taşınması
 - 2026 MEB/TTKB belgesindeki 18 dersin ünite/tema/alt konu kataloğu, arama ve konudan çalışma oluşturma
+- Konu bazında başlamadım/çalışıyorum/tekrar gerekli/tamamladım seviyeleri
+- Eksik konulara göre, mevcut programın süresini dikkate alan ve onayla eklenen öneriler
 - Haftalık çalışma/odak/soru hedefi özeti ve karşılaştırılabilir denemelerde net farkı
 - Dört renk paleti ve açık/koyu cam teması
 - Kronometre, 25 dakikalık Pomodoro ve odak geçmişi
@@ -48,9 +50,21 @@ Taşıma, tamamlanmamış çalışmalar için kullanılabilir. Haftalık bir gö
 
 Katalog 2026 MEB/TTKB belgesine dayanır; 2027 kapsamı olarak sunulmaz. 18 derste 867 ünite, tema, alt konu ve dil becerisi bloğu, kaynak PDF sayfasıyla gösterilir. Tüm kazanım açıklamalarının yerine geçmez. Liste ve arama WASM içine gömülüdür; kaynak PDF için internet gerekir. TYT/AYT ders etiketi, öğrencinin planlama tercihidir. Ayrıntılı kaynak ve üretim yöntemi [docs/curriculum-index.md](docs/curriculum-index.md) dosyasındadır.
 
+## Konu ilerlemesi ve öneriler
+
+Konu seviyesi öğrencinin kendi değerlendirmesidir; görev tiklemek bunu değiştirmez. Sayaçlar seçili ders ve arama kapsamındaki başlıkları sayar. Her konu anahtarı kaynak yılını içerir (`2026/<konu-kimliği>`). İlerleme ayrı kayıtlar olarak yerelde saklanır, yedeğe dâhildir ve aynı tarayıcı profilindeki pencerelerde eşitlenir.
+
+Yeni konu çalışmalarına `topic_id` bağlantısı eklenir. Taşıma ve düzenleme bu bağlantıyı korur. Önceki sürümlerdeki serbest çalışmaların başlığından konu tahmin edilmez; bağlantıları boş kalır. Eski şema v1 yedekleri `topic_progress: []` ve `topic_id: null` varsayılanlarıyla açılır.
+
+Öneri, seçili ders/arama/durum kapsamındaki konuları kullanır. Önce tekrar gereken, sonra çalışılan, sonra başlanmayan konuları kaynak sırasıyla ele alır. Tamamlanan ve hâlihazırda tamamlanmamış bir çalışmaya bağlı konuları dışarıda tutar (gecikmiş çalışmalar da buna dâhildir). Haftalık bir çalışmanın gelecekteki tekrarları sürdüğü için bu konu planlanmış sayılır. Konuya bağlı tamamlanan çalışmalar, öğrenci konu seviyesini değiştirmedikçe seviyeyi değiştirmez.
+
+Yedi günlük aralıkta seçilen günlerin süre bütçesinden o günün mevcut planlı çalışmaları düşülür. Oturumlar, konunun tümünü öğrenme süresinin tahmini değildir. Önce taslak gösterilir; öğrenci seçtiklerini onaylayınca mevcut program silinmeden eklenir. Onay anındaki görünümde konu seviyeleri, planlanmış işler ve süre tekrar kontrol edilir. Öneri ayarları değişirse taslak yeniden oluşturulur. Aynı konunun aynı öğrenme döngüsü için eşzamanlı öneriler kararlı bir çalışma kimliği kullanır; son kaydedilen tarih geçerlidir. Başka bir pencereden veya elle sonradan eklenen işler her zaman programı değiştirebilir; günlük bütçe bir öneri sınırıdır, uygulamanın genel kotası değildir.
+
+Bu özellik kural tabanlıdır; harici yapay zekâ veya bulut hesabı kullanmaz.
+
 ## Mimari ve sonraki adımlar
 
-`src/model.rs`: Rust veri modelleri, doğrulama ve hesaplama kuralları. `src/main.rs`: ana Leptos arayüzü. `src/components/`: konu kataloğu, kart düzenleyici ve haftalık özet. `src/curriculum.rs` / `data/curriculum-2026.json`: doğrulanmış kaynak indeksi. `src/platform.rs`: tipli tarayıcı köprüsü. `public/storage.js`: IndexedDB, tarih, yedek ve PWA tarayıcı köprüsü. `public/style.css`: tema değişkenleri ve responsive görünüm. Rust durumu yerel depolama köprüsünden ayrılmıştır; Cloudflare Workers + D1 geçişinde kimlik, sürüm geçişleri ve çakışma çözümü içeren ayrı senkronizasyon katmanı eklenmelidir.
+`src/model.rs`: Rust veri modelleri, doğrulama ve hesaplama kuralları. `src/main.rs`: ana Leptos arayüzü. `src/components/`: konu kataloğu, kart düzenleyici ve haftalık özet. `src/learning.rs`: konu ilerlemesi ve öneri kuralları. `src/curriculum.rs` / `data/curriculum-2026.json`: doğrulanmış kaynak indeksi. `src/platform.rs`: tipli tarayıcı köprüsü. `public/storage.js`: IndexedDB, tarih, yedek ve PWA tarayıcı köprüsü. `public/style.css`: tema değişkenleri ve responsive görünüm. Rust durumu yerel depolama köprüsünden ayrılmıştır; Cloudflare Workers + D1 geçişinde kimlik, sürüm geçişleri ve çakışma çözümü içeren ayrı senkronizasyon katmanı eklenmelidir.
 
 Yapay zekâ planlama bu sürümde etkin değildir. Gelecekte API anahtarını tarayıcıya koymadan Workers üzerinden sunulabilir. Ücretli üyelik/ödeme bulunmaz; “premium” görsel kaliteyi ifade eder.
 

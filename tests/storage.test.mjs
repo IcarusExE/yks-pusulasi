@@ -5,7 +5,7 @@ import {IDBFactory} from 'fake-indexeddb';
 const source=await readFile(new URL('../public/storage.js',import.meta.url),'utf8');
 let sequence=0;
 async function client(){return import('data:text/javascript;base64,'+Buffer.from(source).toString('base64')+'#'+sequence++);}
-const snapshot=()=>({version:1,name:'',track:'Sayısal',palette:'forest',dark:false,tasks:[],cards:[],exams:[],sessions:[],timer:{running:false,started:0,elapsed:0,mode:'Kronometre',subject:'TYT Matematik'}});
+const snapshot=()=>({version:1,name:'',track:'Sayısal',palette:'forest',dark:false,tasks:[],cards:[],exams:[],sessions:[],topic_progress:[],timer:{running:false,started:0,elapsed:0,mode:'Kronometre',subject:'TYT Matematik'}});
 const task=(id,title=id)=>({id,title,subject:'TYT Matematik',date:'2026-11-22',minutes:45,questions:20,weekly:true,done:[]});
 async function write(c,s){return JSON.parse(await c.save(JSON.stringify(s)));}
 async function setup(initial=snapshot()){
@@ -91,4 +91,17 @@ test('editing a card in one window preserves review progress recorded by another
  const initial=snapshot();initial.cards=[{id:'c',deck:'Fen',front:'Soru',back:'Cevap',due:'2026-11-22',interval:0}];const {a,b,baseA,baseB}=await setup(initial);
  baseA.cards[0].due='2026-11-29';baseA.cards[0].interval=7;baseB.cards[0].deck='Biyoloji';baseB.cards[0].front='Yeni soru';await write(a,baseA);await write(b,baseB);
  const card=JSON.parse(await a.load()).cards[0];assert.equal(card.interval,7);assert.equal(card.due,'2026-11-29');assert.equal(card.front,'Yeni soru');assert.equal(card.deck,'Biyoloji');
+});
+
+test('topic progress for different topics merges across windows and survives reload',async()=>{
+ const {a,b,baseA,baseB}=await setup();baseA.topic_progress=[{id:'2026/math-a',status:'in_progress'}];baseB.topic_progress=[{id:'2026/math-b',status:'completed'}];await Promise.all([write(a,baseA),write(b,baseB)]);const c=await client();const loaded=JSON.parse(await c.load());assert.deepEqual(loaded.topic_progress.map(p=>p.id).sort(),['2026/math-a','2026/math-b']);
+});
+test('a progress reset is retained as an explicit record and same-topic conflicts use last write',async()=>{
+ const initial=snapshot();initial.topic_progress=[{id:'2026/math-a',status:'needs_review'}];const {a,b,baseA,baseB}=await setup(initial);baseA.topic_progress[0].status='completed';baseB.topic_progress[0].status='not_started';await write(a,baseA);await write(b,baseB);assert.deepEqual(JSON.parse(await a.load()).topic_progress,[{id:'2026/math-a',status:'not_started'}]);
+});
+test('legacy snapshots gain empty progress and linked tasks remain linked after moving dates',async()=>{
+ const {a,b,baseA}=await setup();delete baseA.topic_progress;baseA.tasks=[{...task('linked'),topic_id:'2026/math-a'}];await write(a,baseA);const loaded=JSON.parse(await b.load());assert.deepEqual(loaded.topic_progress,[]);loaded.tasks[0].date='2026-11-23';await write(b,loaded);assert.equal(JSON.parse(await a.load()).tasks[0].topic_id,'2026/math-a');
+});
+test('concurrent acceptance of the same recommendation cycle creates one task',async()=>{
+ const {a,b,baseA,baseB}=await setup();baseA.tasks=[{...task('topic-plan@2026/math-a@0'),weekly:false,topic_id:'2026/math-a'}];baseB.tasks=[{...task('topic-plan@2026/math-a@0'),date:'2026-11-23',weekly:false,topic_id:'2026/math-a'}];await write(a,baseA);await write(b,baseB);const loaded=JSON.parse(await a.load());assert.equal(loaded.tasks.length,1);assert.equal(loaded.tasks[0].date,'2026-11-23');
 });

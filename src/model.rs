@@ -12,6 +12,8 @@ pub struct Task {
     pub done: Vec<String>,
     #[serde(default)]
     pub skipped: Vec<String>,
+    #[serde(default)]
+    pub topic_id: Option<String>,
 }
 #[derive(Clone, Serialize, Deserialize, Debug, PartialEq)]
 pub struct Card {
@@ -69,6 +71,8 @@ pub struct State {
     pub exams: Vec<Exam>,
     pub sessions: Vec<Session>,
     pub timer: Timer,
+    #[serde(default)]
+    pub topic_progress: Vec<crate::learning::TopicProgress>,
 }
 impl Default for State {
     fn default() -> Self {
@@ -83,6 +87,7 @@ impl Default for State {
             exams: vec![],
             sessions: vec![],
             timer: Timer::default(),
+            topic_progress: vec![],
         }
     }
 }
@@ -334,6 +339,10 @@ pub fn valid(s: &State) -> bool {
                 && t.title.len() <= 640
                 && t.done.iter().all(|d| valid_date(d))
                 && t.skipped.iter().all(|d| valid_date(d))
+                && t.topic_id
+                    .as_ref()
+                    .map(|id| !id.is_empty() && id.len() <= 180)
+                    .unwrap_or(true)
         })
         && s.cards.iter().all(|c| {
             valid_date(&c.due)
@@ -355,6 +364,11 @@ pub fn valid(s: &State) -> bool {
         && unique_ids(s.cards.iter().map(|c| c.id.as_str()))
         && unique_ids(s.exams.iter().map(|e| e.id.as_str()))
         && unique_ids(s.sessions.iter().map(|s| s.id.as_str()))
+        && s.topic_progress.len() <= 50000
+        && s.topic_progress
+            .iter()
+            .all(|p| !p.id.is_empty() && p.id.len() <= 180)
+        && unique_ids(s.topic_progress.iter().map(|p| p.id.as_str()))
 }
 pub fn unique_ids<'a>(ids: impl Iterator<Item = &'a str>) -> bool {
     let mut seen = std::collections::HashSet::new();
@@ -404,6 +418,7 @@ mod tests {
             weekly,
             done: vec![],
             skipped: vec![],
+            topic_id: None,
         }
     }
     #[test]
@@ -573,6 +588,7 @@ mod tests {
             weekly: true,
             done: vec![],
             skipped: vec![],
+            topic_id: None,
         };
         assert!(!occurs(&t, "2026-12-21"));
         assert!(occurs(&t, "2026-12-28"));

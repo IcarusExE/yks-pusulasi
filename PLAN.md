@@ -45,6 +45,17 @@
 - [x] Şema v1 ve mevcut kayıtlarla uyumluluk
 - [ ] Gerçek tarayıcı ve telefon kontrolü — ortam aracı hatası sürüyor
 
+## 0.3.0 — Konu ilerlemesi ve eksik konu önerisi
+
+- [x] Konu başına öğrenci tarafından seçilen dört ilerleme seviyesi
+- [x] Seçili ders/arama kapsamı için ilerleme sayıları ve durum filtresi
+- [x] Yeni çalışmalar ile 2026 kaynak konuları arasında kalıcı bağlantı
+- [x] Uygun gün/süre bütçesiyle kural tabanlı öneri taslağı ve seçerek onaylama
+- [x] Tamamlanan/planlanmış konuları hariç tutma ve onayda yeniden kontrol
+- [x] Tekrar döngüsü ve eşzamanlı onaylarda mükerrer öneri koruması
+- [x] Konu ilerlemesini pencereler arasında birleştirme ve eski yedekleri okuma
+- [ ] Gerçek mobil/PWA kontrolü — tarayıcı aracı erişim hatası devam ediyor
+
 ## Sonraki sürümler
 
 1. Öğrenciden geri bildirim, konu bazlı plan şablonları ve kart düzenleme.

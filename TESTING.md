@@ -1,4 +1,4 @@
-# Doğrulama — 0.2.0
+# Doğrulama — 0.3.0
 
 ## Otomatik kontroller
 
@@ -35,3 +35,9 @@ Gerçek tarayıcıda taşıma penceresinin klavye ve telefon kullanımı hâlâ 
 Otomatik: katalogdaki 18 dersin bütünlüğü ve kaynak sayfa aralıkları; benzersiz başlık kimlikleri; temel düzey matematik ve analiz konu kodları; Türkçe arama; kart düzenlemede tekrar tarihinin korunması; silinmiş/geçersiz kartı reddetme; boş hafta; taşınmış tekrarların haftalık sayımı; tarih ve test yapısına göre net karşılaştırması; diğer pencerenin kart tekrar ilerlemesinin düzenleme sırasında korunması.
 
 Gerçek tarayıcıda bekleyenler: katalog filtreleri ve sayfalama, konudan taslak oluşturup değiştirme, yeni boş çalışmanın önceki taslağı kullanmaması, kart düzenleme penceresi, haftalık gezinme ve dar ekranlardaki tablo/grafik görünümü. Tarayıcı kısıtı nedeniyle bu maddeler doğrulanmış sayılmıyor.
+
+## 0.3.0 ek kontroller
+
+Otomatik: ilerlemenin görev tikinden bağımsız kalması, açık sıfırlama, eksik konu öncelikleri ve kaynak sırası, tamamlanan/planlanmış konuların hariç tutulması, haftalık ve tek seferlik çalışmaların bütçeden düşülmesi, yalnızca seçili önerilerin eklenmesi, onay sırasında güncel programın yeniden kontrolü, çift onay ve tekrar döngüsü kimliği, bozuk taslağın kısmen eklenmemesi, eski yedeklerin varsayılanları, konu ilerlemesinin pencereler arası birleştirilmesi, aynı konu çakışmasında son kayıt ve taşıma sonrası konu bağlantısı.
+
+Gerçek tarayıcıda bekleyenler: durum seçimi ve filtrelemede odak, arama kapsamına göre sayaçlar, boş kapsam, öneri formu değişince taslağın iptali, uygun gün/oturum süresi girişi, önerilerden seçim ve onay, iki pencerede eşitleme, JSON dosyasından ilerleme geri yükleme, dar ekranlarda yeni kontroller, çevrimdışı kurulu PWA akışı. Ortamın `the gaas-browser node_repl sandbox cannot be disabled` hatası tekrarlandığı için bunlar tamamlandı olarak işaretlenmedi.

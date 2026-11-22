@@ -14,7 +14,7 @@ function db() {
     req.onblocked = () => { dbPromise = null; reject(new Error('Diğer sekmeleri kapatıp tekrar dene.')); };
   });
 }
-const collections = ['tasks', 'cards', 'exams', 'sessions'];
+const collections = ['tasks', 'cards', 'exams', 'sessions', 'topic_progress'];
 const equal = (a, b) => canonical(a) === canonical(b);
 function canonical(value) {
   if (value === undefined) return 'undefined';
@@ -31,6 +31,7 @@ function legacyId(kind, item, index) {
 export function normalizeState(value) {
   const state = structuredClone(value);
   if (!state || typeof state !== 'object' || Array.isArray(state)) throw new Error('Geçersiz kayıt');
+  if (state.topic_progress === undefined) state.topic_progress = [];
   for (const kind of ['exams', 'sessions']) {
     if (!Array.isArray(state[kind])) continue;
     state[kind] = state[kind].map((item, index) => ({ ...item, id: item.id || legacyId(kind, item, index) }));
@@ -90,7 +91,7 @@ export function acceptSnapshot(raw) { viewBase = normalizeState(JSON.parse(raw))
 export function replaceNext() { replacePending = true; }
 export function save(value) {
   const local = normalizeState(JSON.parse(value));
-  const base = viewBase || { ...local, tasks: [], cards: [], exams: [], sessions: [] }, replace = replacePending;
+  const base = viewBase || { ...local, tasks: [], cards: [], exams: [], sessions: [], topic_progress: [] }, replace = replacePending;
   replacePending = false;
   viewBase = local;
   revision++;
