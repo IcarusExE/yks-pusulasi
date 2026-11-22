@@ -33,7 +33,17 @@
 - [x] Haftalık serinin yalnızca seçilen tekrarını taşıma
 - [x] Tamamlanmış geçmişi koruma ve çift taşımayı engelleme
 - [x] Birden fazla penceredeki taşıma işlemlerini birleştirme
-- [ ] Tam konu listesi — resmî 2026 belgesi doğrulandı; kaynak yılı tercihi ve metin doğrulaması bekliyor (docs/curriculum-research.md)
+- [x] Resmî 2026 kapsamı doğrulandı; kullanıcı yıl belirtilerek kullanılmasını onayladı (docs/curriculum-research.md)
+
+## 0.2.0 — Kaynaklı konu kataloğu, kart düzenleme ve haftalık özet
+
+- [x] 2026 resmî belgesindeki 18 ders için 867 ünite/tema/alt konu/beceri başlığı ve kaynak sayfaları
+- [x] Türkçe arama, ders seçimi, sayfalama ve konudan düzenlenebilir çalışma taslağı
+- [x] Kartın tekrar takvimini koruyarak deste/soru/cevap düzenleme
+- [x] Haftalık görev, soru hedefi, odak süresi ve ders bazlı özet
+- [x] Yalnızca karşılaştırılabilir denemeler arasında haftalık net farkı
+- [x] Şema v1 ve mevcut kayıtlarla uyumluluk
+- [ ] Gerçek tarayıcı ve telefon kontrolü — ortam aracı hatası sürüyor
 
 ## Sonraki sürümler
 

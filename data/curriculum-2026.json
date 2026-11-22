@@ -1,0 +1,7056 @@
+{
+  "year": 2026,
+  "checked_on": "2026-11-22",
+  "source_url": "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_11/26164023_2026_yks.pdf",
+  "source_sha256": "f52502743b6372e5df7de42d741b02a0b18eec087eac785b50a1fe3dd4a6d536",
+  "source_pages": 581,
+  "granularity": "Ünite, tema ve alt konu; açıklamalar için resmî belge esas alınır.",
+  "courses": [
+    {
+      "id": "literature",
+      "name": "Türk Dili ve Edebiyatı",
+      "start_page": 4,
+      "end_page": 50
+    },
+    {
+      "id": "religion",
+      "name": "Din Kültürü ve Ahlak Bilgisi",
+      "start_page": 51,
+      "end_page": 74
+    },
+    {
+      "id": "history",
+      "name": "Tarih",
+      "start_page": 75,
+      "end_page": 102
+    },
+    {
+      "id": "revolution",
+      "name": "T.C. İnkılap Tarihi ve Atatürkçülük",
+      "start_page": 103,
+      "end_page": 111
+    },
+    {
+      "id": "geography",
+      "name": "Coğrafya",
+      "start_page": 112,
+      "end_page": 123
+    },
+    {
+      "id": "math",
+      "name": "Matematik",
+      "start_page": 124,
+      "end_page": 154
+    },
+    {
+      "id": "physics",
+      "name": "Fizik",
+      "start_page": 155,
+      "end_page": 182
+    },
+    {
+      "id": "chemistry",
+      "name": "Kimya",
+      "start_page": 183,
+      "end_page": 206
+    },
+    {
+      "id": "biology",
+      "name": "Biyoloji",
+      "start_page": 207,
+      "end_page": 226
+    },
+    {
+      "id": "philosophy",
+      "name": "Felsefe",
+      "start_page": 227,
+      "end_page": 238
+    },
+    {
+      "id": "logic",
+      "name": "Mantık",
+      "start_page": 239,
+      "end_page": 246
+    },
+    {
+      "id": "sociology",
+      "name": "Sosyoloji",
+      "start_page": 247,
+      "end_page": 257
+    },
+    {
+      "id": "psychology",
+      "name": "Psikoloji",
+      "start_page": 258,
+      "end_page": 270
+    },
+    {
+      "id": "english",
+      "name": "İngilizce",
+      "start_page": 271,
+      "end_page": 316
+    },
+    {
+      "id": "german",
+      "name": "Almanca",
+      "start_page": 317,
+      "end_page": 348
+    },
+    {
+      "id": "french",
+      "name": "Fransızca",
+      "start_page": 349,
+      "end_page": 380
+    },
+    {
+      "id": "arabic",
+      "name": "Arapça",
+      "start_page": 381,
+      "end_page": 501
+    },
+    {
+      "id": "russian",
+      "name": "Rusça",
+      "start_page": 502,
+      "end_page": 581
+    }
+  ],
+  "topics": [
+    {
+      "id": "literature-5f014a3b8076",
+      "course": "literature",
+      "title": "Şiir: okuma kazanımları",
+      "page": 5,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-1ea8c645992f",
+      "course": "literature",
+      "title": "Öyküleyici edebî metinler: okuma kazanımları",
+      "page": 7,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-29e02cbcca57",
+      "course": "literature",
+      "title": "Tiyatro: okuma kazanımları",
+      "page": 9,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-a87d5c2ff081",
+      "course": "literature",
+      "title": "Bilgilendirici metinler: okuma kazanımları",
+      "page": 10,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-629afb97f4d6",
+      "course": "literature",
+      "title": "Yazma",
+      "page": 12,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-9e73b4f2bc58",
+      "course": "literature",
+      "title": "Sözlü iletişim: konuşma",
+      "page": 13,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-7b5fe95963cd",
+      "course": "literature",
+      "title": "Sözlü iletişim: dinleme",
+      "page": 15,
+      "level": "Ortak okuma / yazma / sözlü iletişim",
+      "code": ""
+    },
+    {
+      "id": "literature-705f0f956d74",
+      "course": "literature",
+      "title": "GİRİŞ",
+      "page": 16,
+      "level": "9. sınıf",
+      "code": "9.1"
+    },
+    {
+      "id": "literature-1fde71ecabbc",
+      "course": "literature",
+      "title": "HİKÂYE",
+      "page": 17,
+      "level": "9. sınıf",
+      "code": "9.2"
+    },
+    {
+      "id": "literature-e600862a1a59",
+      "course": "literature",
+      "title": "ŞİİR",
+      "page": 18,
+      "level": "9. sınıf",
+      "code": "9.3"
+    },
+    {
+      "id": "literature-d952fef32725",
+      "course": "literature",
+      "title": "MASAL/FABL",
+      "page": 19,
+      "level": "9. sınıf",
+      "code": "9.4"
+    },
+    {
+      "id": "literature-71fdfc0e7138",
+      "course": "literature",
+      "title": "ROMAN",
+      "page": 20,
+      "level": "9. sınıf",
+      "code": "9.5"
+    },
+    {
+      "id": "literature-f64fa1031b50",
+      "course": "literature",
+      "title": "TİYATRO",
+      "page": 21,
+      "level": "9. sınıf",
+      "code": "9.6"
+    },
+    {
+      "id": "literature-590bef2f8d25",
+      "course": "literature",
+      "title": "BİYOGRAFİ/OTOBİYOGRAFİ",
+      "page": 22,
+      "level": "9. sınıf",
+      "code": "9.7"
+    },
+    {
+      "id": "literature-b5b145ba0a1b",
+      "course": "literature",
+      "title": "MEKTUP/E -POSTA",
+      "page": 23,
+      "level": "9. sınıf",
+      "code": "9.8"
+    },
+    {
+      "id": "literature-a504ecce6dc2",
+      "course": "literature",
+      "title": "GÜNLÜK/BLOG",
+      "page": 24,
+      "level": "9. sınıf",
+      "code": "9.9"
+    },
+    {
+      "id": "literature-624c104ffed5",
+      "course": "literature",
+      "title": "GİRİŞ",
+      "page": 25,
+      "level": "10. sınıf",
+      "code": "10.1"
+    },
+    {
+      "id": "literature-44bd5a0d7272",
+      "course": "literature",
+      "title": "HİKÂYE",
+      "page": 26,
+      "level": "10. sınıf",
+      "code": "10.2"
+    },
+    {
+      "id": "literature-f93f7bb14994",
+      "course": "literature",
+      "title": "ŞİİR",
+      "page": 27,
+      "level": "10. sınıf",
+      "code": "10.3"
+    },
+    {
+      "id": "literature-a5f3f3146cae",
+      "course": "literature",
+      "title": "DESTAN/EFSANE",
+      "page": 28,
+      "level": "10. sınıf",
+      "code": "10.4"
+    },
+    {
+      "id": "literature-90e2b52358df",
+      "course": "literature",
+      "title": "ROMAN",
+      "page": 29,
+      "level": "10. sınıf",
+      "code": "10.5"
+    },
+    {
+      "id": "literature-1f237f0893ea",
+      "course": "literature",
+      "title": "TİYATRO",
+      "page": 30,
+      "level": "10. sınıf",
+      "code": "10.6"
+    },
+    {
+      "id": "literature-87c6de951699",
+      "course": "literature",
+      "title": "ANI (HATIRA)",
+      "page": 31,
+      "level": "10. sınıf",
+      "code": "10.7"
+    },
+    {
+      "id": "literature-0695deb1a086",
+      "course": "literature",
+      "title": "HABER METNİ",
+      "page": 32,
+      "level": "10. sınıf",
+      "code": "10.8"
+    },
+    {
+      "id": "literature-4d59270d23d3",
+      "course": "literature",
+      "title": "GEZİ YAZISI",
+      "page": 33,
+      "level": "10. sınıf",
+      "code": "10.9"
+    },
+    {
+      "id": "literature-848e340b5c63",
+      "course": "literature",
+      "title": "GİRİŞ",
+      "page": 34,
+      "level": "11. sınıf",
+      "code": "11.1"
+    },
+    {
+      "id": "literature-812ac1a7de7a",
+      "course": "literature",
+      "title": "HİKÂYE",
+      "page": 35,
+      "level": "11. sınıf",
+      "code": "11.2"
+    },
+    {
+      "id": "literature-e431977b9236",
+      "course": "literature",
+      "title": "ŞİİR",
+      "page": 36,
+      "level": "11. sınıf",
+      "code": "11.3"
+    },
+    {
+      "id": "literature-1a7494e1e45c",
+      "course": "literature",
+      "title": "MAKALE",
+      "page": 37,
+      "level": "11. sınıf",
+      "code": "11.4"
+    },
+    {
+      "id": "literature-37e5b536866c",
+      "course": "literature",
+      "title": "SOHBET VE FIKRA",
+      "page": 38,
+      "level": "11. sınıf",
+      "code": "11.5"
+    },
+    {
+      "id": "literature-d239bff0f084",
+      "course": "literature",
+      "title": "ROMAN",
+      "page": 39,
+      "level": "11. sınıf",
+      "code": "11.6"
+    },
+    {
+      "id": "literature-b582cd7ed3ad",
+      "course": "literature",
+      "title": "TİYATRO",
+      "page": 40,
+      "level": "11. sınıf",
+      "code": "11.7"
+    },
+    {
+      "id": "literature-7895f0d1d3d8",
+      "course": "literature",
+      "title": "ELEŞTİRİ",
+      "page": 41,
+      "level": "11. sınıf",
+      "code": "11.8"
+    },
+    {
+      "id": "literature-3957561d3f8b",
+      "course": "literature",
+      "title": "MÜLAKAT/RÖPORTAJ",
+      "page": 42,
+      "level": "11. sınıf",
+      "code": "11.9"
+    },
+    {
+      "id": "literature-6f4a096b8f9e",
+      "course": "literature",
+      "title": "GİRİŞ",
+      "page": 43,
+      "level": "12. sınıf",
+      "code": "12.1"
+    },
+    {
+      "id": "literature-a293e01de1fc",
+      "course": "literature",
+      "title": "HİKÂYE",
+      "page": 44,
+      "level": "12. sınıf",
+      "code": "12.2"
+    },
+    {
+      "id": "literature-99d2518c86a4",
+      "course": "literature",
+      "title": "ŞİİR",
+      "page": 45,
+      "level": "12. sınıf",
+      "code": "12.3"
+    },
+    {
+      "id": "literature-8ea9490117c1",
+      "course": "literature",
+      "title": "ROMAN",
+      "page": 46,
+      "level": "12. sınıf",
+      "code": "12.4"
+    },
+    {
+      "id": "literature-03afc7bf009f",
+      "course": "literature",
+      "title": "TİYATRO",
+      "page": 47,
+      "level": "12. sınıf",
+      "code": "12.5"
+    },
+    {
+      "id": "literature-51a6aa3ac95d",
+      "course": "literature",
+      "title": "DENEME",
+      "page": 48,
+      "level": "12. sınıf",
+      "code": "12.6"
+    },
+    {
+      "id": "literature-9f7a5c7ca3d6",
+      "course": "literature",
+      "title": "SÖYLEV (NUTUK)",
+      "page": 49,
+      "level": "12. sınıf",
+      "code": "12.7"
+    },
+    {
+      "id": "religion-5182e72c6137",
+      "course": "religion",
+      "title": "BİLGİ VE İNANÇ",
+      "page": 53,
+      "level": "9. sınıf",
+      "code": "9.1"
+    },
+    {
+      "id": "religion-05862337cbdd",
+      "course": "religion",
+      "title": "DİN VE İSLAM",
+      "page": 54,
+      "level": "9. sınıf",
+      "code": "9.2"
+    },
+    {
+      "id": "religion-825a4a187f62",
+      "course": "religion",
+      "title": "İSLAM VE İBADET",
+      "page": 55,
+      "level": "9. sınıf",
+      "code": "9.3"
+    },
+    {
+      "id": "religion-61865d91fc46",
+      "course": "religion",
+      "title": "GENÇLİK VE DEĞERLER",
+      "page": 56,
+      "level": "9. sınıf",
+      "code": "9.4"
+    },
+    {
+      "id": "religion-8481a9210139",
+      "course": "religion",
+      "title": "GÖNÜL COĞRAFYAMIZ",
+      "page": 57,
+      "level": "9. sınıf",
+      "code": "9.5"
+    },
+    {
+      "id": "religion-60c5870aea11",
+      "course": "religion",
+      "title": "ALLAH İNSAN İLİŞKİSİ",
+      "page": 58,
+      "level": "10. sınıf",
+      "code": "10.1"
+    },
+    {
+      "id": "religion-371dcd57c185",
+      "course": "religion",
+      "title": "HZ. MUHAMMED VE GENÇLİK",
+      "page": 59,
+      "level": "10. sınıf",
+      "code": "10.2"
+    },
+    {
+      "id": "religion-cda1d9df23d8",
+      "course": "religion",
+      "title": "DİN VE HAYAT",
+      "page": 60,
+      "level": "10. sınıf",
+      "code": "10.3"
+    },
+    {
+      "id": "religion-2cd55a272d00",
+      "course": "religion",
+      "title": "AHLAKİ TUTUM VE DAVRANIŞLAR",
+      "page": 61,
+      "level": "10. sınıf",
+      "code": "10.4"
+    },
+    {
+      "id": "religion-a57f41e5406e",
+      "course": "religion",
+      "title": "İSLAM DÜŞÜNCESİNDE İTİKADİ, SİYASİ VE FIKHİ YORUMLAR",
+      "page": 62,
+      "level": "10. sınıf",
+      "code": "10.5"
+    },
+    {
+      "id": "religion-baaa8ad18d69",
+      "course": "religion",
+      "title": "DÜNYA VE AHİRET",
+      "page": 63,
+      "level": "11. sınıf",
+      "code": "11.1"
+    },
+    {
+      "id": "religion-1f249dd56ad4",
+      "course": "religion",
+      "title": "KUR’AN’A GÖRE HZ. MUHAMMED",
+      "page": 64,
+      "level": "11. sınıf",
+      "code": "11.2"
+    },
+    {
+      "id": "religion-196b13d3c8c8",
+      "course": "religion",
+      "title": "KUR’AN’DA BAZI KAVRAMLAR",
+      "page": 65,
+      "level": "11. sınıf",
+      "code": "11.3"
+    },
+    {
+      "id": "religion-59b45c562cec",
+      "course": "religion",
+      "title": "İNANÇLA İLGİLİ MESELELER",
+      "page": 66,
+      "level": "11. sınıf",
+      "code": "11.4"
+    },
+    {
+      "id": "religion-3f089ae22ebe",
+      "course": "religion",
+      "title": "YAHUDİLİK VE HIRİSTİYANLIK",
+      "page": 67,
+      "level": "11. sınıf",
+      "code": "11.5"
+    },
+    {
+      "id": "religion-110e4fbed9fe",
+      "course": "religion",
+      "title": "İSLAM VE BİLİM",
+      "page": 68,
+      "level": "12. sınıf",
+      "code": "12.1"
+    },
+    {
+      "id": "religion-cfe62163bab1",
+      "course": "religion",
+      "title": "ANADOLU’DA İSLAM",
+      "page": 69,
+      "level": "12. sınıf",
+      "code": "12.2"
+    },
+    {
+      "id": "religion-64866e7b7f9c",
+      "course": "religion",
+      "title": "İSLAM DÜŞÜNCESİNDE TASAVVUFİ YORUMLAR",
+      "page": 70,
+      "level": "12. sınıf",
+      "code": "12.3"
+    },
+    {
+      "id": "religion-26867151ecad",
+      "course": "religion",
+      "title": "GÜNCEL DİNÎ MESELELER",
+      "page": 71,
+      "level": "12. sınıf",
+      "code": "12.4"
+    },
+    {
+      "id": "religion-6d148647905e",
+      "course": "religion",
+      "title": "HİNT VE ÇİN DİNLERİ",
+      "page": 73,
+      "level": "12. sınıf",
+      "code": "12.5"
+    },
+    {
+      "id": "history-fe5fa540a1c3",
+      "course": "history",
+      "title": "TARİH VE ZAMAN",
+      "page": 76,
+      "level": "9. sınıf",
+      "code": "9.1"
+    },
+    {
+      "id": "history-eded2299907c",
+      "course": "history",
+      "title": "İNSANLIĞIN İLK DÖNEMLERİ",
+      "page": 76,
+      "level": "9. sınıf",
+      "code": "9.2"
+    },
+    {
+      "id": "history-c499b4816762",
+      "course": "history",
+      "title": "ORTA ÇAĞ’DA DÜNYA",
+      "page": 78,
+      "level": "9. sınıf",
+      "code": "9.3"
+    },
+    {
+      "id": "history-6b6b2c824340",
+      "course": "history",
+      "title": "İLK VE ORTA ÇAĞLARDA TÜRK DÜNYASI",
+      "page": 79,
+      "level": "9. sınıf",
+      "code": "9.4"
+    },
+    {
+      "id": "history-b3cbdb9bb7d8",
+      "course": "history",
+      "title": "İSLAM MEDENİYETİNİN DOĞUŞU",
+      "page": 80,
+      "level": "9. sınıf",
+      "code": "9.5"
+    },
+    {
+      "id": "history-e8aa8131767a",
+      "course": "history",
+      "title": "TÜRKLERİN İSLAMİYET’İ KABULÜ VE İLK TÜRK İSLAM DEVLETLERİ",
+      "page": 81,
+      "level": "9. sınıf",
+      "code": "9.6"
+    },
+    {
+      "id": "history-a3c936a2fa81",
+      "course": "history",
+      "title": "YERLEŞME VE DEVLETLEŞME SÜRECİNDE SELÇUKLU TÜRKİYESİ",
+      "page": 83,
+      "level": "10. sınıf",
+      "code": "10.1"
+    },
+    {
+      "id": "history-27ff4ee6f48b",
+      "course": "history",
+      "title": "BEYLİKTEN DEVLETE OSMANLI SİYASETİ (1302-1453)",
+      "page": 84,
+      "level": "10. sınıf",
+      "code": "10.2"
+    },
+    {
+      "id": "history-1a53cbd5a5c3",
+      "course": "history",
+      "title": "DEVLETLEŞME SÜRECİNDE SAVAŞÇILAR VE ASKERLER",
+      "page": 85,
+      "level": "10. sınıf",
+      "code": "10.3"
+    },
+    {
+      "id": "history-ecc5433cf2a1",
+      "course": "history",
+      "title": "BEYLİKTEN DEVLETE OSMANLI MEDENİYETİ",
+      "page": 86,
+      "level": "10. sınıf",
+      "code": "10.4"
+    },
+    {
+      "id": "history-c1ef0e0a3a6d",
+      "course": "history",
+      "title": "DÜNYA GÜCÜ OSMANLI (1453-1595)",
+      "page": 87,
+      "level": "10. sınıf",
+      "code": "10.5"
+    },
+    {
+      "id": "history-7f860f6038f1",
+      "course": "history",
+      "title": "SULTAN VE OSMANLI MERKEZ TEŞKİLATI",
+      "page": 88,
+      "level": "10. sınıf",
+      "code": "10.6"
+    },
+    {
+      "id": "history-dbace77e2888",
+      "course": "history",
+      "title": "KLASİK ÇAĞDA OSMANLI TOPLUM DÜZENİ",
+      "page": 89,
+      "level": "10. sınıf",
+      "code": "10.7"
+    },
+    {
+      "id": "history-a210c39417cd",
+      "course": "history",
+      "title": "DEĞİŞEN DÜNYA DENGELERİ KARŞISINDA OSMANLI SİYASETİ (1595-1774)",
+      "page": 90,
+      "level": "11. sınıf",
+      "code": "11.1"
+    },
+    {
+      "id": "history-cb79a260487e",
+      "course": "history",
+      "title": "DEĞİŞİM ÇAĞINDA AVRUPA VE OSMANLI",
+      "page": 92,
+      "level": "11. sınıf",
+      "code": "11.2"
+    },
+    {
+      "id": "history-b0d77167656d",
+      "course": "history",
+      "title": "DEVRİMLER ÇAĞINDA DEĞİŞEN DEVLET-TOPLUM İLİŞKİLERİ",
+      "page": 94,
+      "level": "11. sınıf",
+      "code": "11.3"
+    },
+    {
+      "id": "history-0509405920b3",
+      "course": "history",
+      "title": "ULUSLARARASI İLİŞKİLERDE DENGE STRATEJİSİ (1774-1914)",
+      "page": 96,
+      "level": "11. sınıf",
+      "code": "11.4"
+    },
+    {
+      "id": "history-0c56ba271965",
+      "course": "history",
+      "title": "XIX VE XX. YÜZYILDA DEĞİŞEN SOSYO-EKONOMİK HAYAT",
+      "page": 99,
+      "level": "11. sınıf",
+      "code": "11.5"
+    },
+    {
+      "id": "revolution-db72042c58cc",
+      "course": "revolution",
+      "title": "20. YÜZYIL BAŞLARINDA OSMANLI DEVLETİ VE DÜNYA",
+      "page": 103,
+      "level": "12. sınıf",
+      "code": "12.1"
+    },
+    {
+      "id": "revolution-ae9cae5856e8",
+      "course": "revolution",
+      "title": "MİLLÎ MÜCADELE",
+      "page": 104,
+      "level": "12. sınıf",
+      "code": "12.2"
+    },
+    {
+      "id": "revolution-06a796dd843e",
+      "course": "revolution",
+      "title": "ATATÜRKÇÜLÜK VE TÜRK İNKILABI",
+      "page": 105,
+      "level": "12. sınıf",
+      "code": "12.3"
+    },
+    {
+      "id": "revolution-8f98cf310c65",
+      "course": "revolution",
+      "title": "İKİ SAVAŞ ARASINDAKİ DÖNEMDE TÜRKİYE VE DÜNYA",
+      "page": 106,
+      "level": "12. sınıf",
+      "code": "12.4"
+    },
+    {
+      "id": "revolution-f9d73e8a2dde",
+      "course": "revolution",
+      "title": "II. DÜNYA SAVAŞI SÜRECİNDE TÜRKİYE VE DÜNYA",
+      "page": 107,
+      "level": "12. sınıf",
+      "code": "12.5"
+    },
+    {
+      "id": "revolution-bf67611452a5",
+      "course": "revolution",
+      "title": "II. DÜNYA SAVAŞI SONRASINDA TÜRKİYE VE DÜNYA",
+      "page": 107,
+      "level": "12. sınıf",
+      "code": "12.6"
+    },
+    {
+      "id": "revolution-c421d8b03cf2",
+      "course": "revolution",
+      "title": "TOPLUMSAL DEVRİM ÇAĞINDA DÜNYA VE TÜRKİYE",
+      "page": 108,
+      "level": "12. sınıf",
+      "code": "12.7"
+    },
+    {
+      "id": "revolution-c9d4e73e5810",
+      "course": "revolution",
+      "title": "21. YÜZYILIN EŞİĞİNDE TÜRKİYE VE DÜNYA",
+      "page": 109,
+      "level": "12. sınıf",
+      "code": "12.8"
+    },
+    {
+      "id": "geography-30e628e02de2",
+      "course": "geography",
+      "title": "Doğal Sistemler",
+      "page": 112,
+      "level": "9. sınıf",
+      "code": "9.1"
+    },
+    {
+      "id": "geography-a20a197f70d1",
+      "course": "geography",
+      "title": "Beşerî Sistemler",
+      "page": 113,
+      "level": "9. sınıf",
+      "code": "9.2"
+    },
+    {
+      "id": "geography-26a6795f01dc",
+      "course": "geography",
+      "title": "Küresel Ortam: Bölgeler ve Ülkeler",
+      "page": 113,
+      "level": "9. sınıf",
+      "code": "9.3"
+    },
+    {
+      "id": "geography-c882755f0d2d",
+      "course": "geography",
+      "title": "Çevre ve Toplum",
+      "page": 113,
+      "level": "9. sınıf",
+      "code": "9.4"
+    },
+    {
+      "id": "geography-08bd7d55f5ac",
+      "course": "geography",
+      "title": "Doğal Sistemler",
+      "page": 114,
+      "level": "10. sınıf",
+      "code": "10.1"
+    },
+    {
+      "id": "geography-abe04e6094cb",
+      "course": "geography",
+      "title": "Beşerî Sistemler",
+      "page": 115,
+      "level": "10. sınıf",
+      "code": "10.2"
+    },
+    {
+      "id": "geography-488f6e425e86",
+      "course": "geography",
+      "title": "Küresel Ortam: Bölgeler ve Ülkeler",
+      "page": 116,
+      "level": "10. sınıf",
+      "code": "10.3"
+    },
+    {
+      "id": "geography-0b86815b8d61",
+      "course": "geography",
+      "title": "Çevre ve Toplum",
+      "page": 116,
+      "level": "10. sınıf",
+      "code": "10.4"
+    },
+    {
+      "id": "geography-41b9f1a6db5d",
+      "course": "geography",
+      "title": "Doğal Sistemler",
+      "page": 116,
+      "level": "11. sınıf",
+      "code": "11.1"
+    },
+    {
+      "id": "geography-6ace8642e47b",
+      "course": "geography",
+      "title": "Beşerî Sistemler",
+      "page": 117,
+      "level": "11. sınıf",
+      "code": "11.2"
+    },
+    {
+      "id": "geography-74ac172dbfe4",
+      "course": "geography",
+      "title": "Küresel Ortam: Bölgeler ve Ülkeler",
+      "page": 118,
+      "level": "11. sınıf",
+      "code": "11.3"
+    },
+    {
+      "id": "geography-526456169114",
+      "course": "geography",
+      "title": "Çevre ve Toplum",
+      "page": 119,
+      "level": "11. sınıf",
+      "code": "11.4"
+    },
+    {
+      "id": "geography-566b6683c565",
+      "course": "geography",
+      "title": "Doğal Sistemler",
+      "page": 119,
+      "level": "12. sınıf",
+      "code": "12.1"
+    },
+    {
+      "id": "geography-02659b3a2c85",
+      "course": "geography",
+      "title": "Beşerî Sistemler",
+      "page": 120,
+      "level": "12. sınıf",
+      "code": "12.2"
+    },
+    {
+      "id": "geography-9fbc8437dfb8",
+      "course": "geography",
+      "title": "Küresel Ortam: Bölgeler ve Ülkeler",
+      "page": 121,
+      "level": "12. sınıf",
+      "code": "12.3"
+    },
+    {
+      "id": "geography-c3e7b416e2ab",
+      "course": "geography",
+      "title": "Çevre ve Toplum",
+      "page": 122,
+      "level": "12. sınıf",
+      "code": "12.4"
+    },
+    {
+      "id": "math-d2cc0c3362a1",
+      "course": "math",
+      "title": "Önermeler ve Bileşik Önermeler",
+      "page": 125,
+      "level": "9. sınıf",
+      "code": "9.1.1"
+    },
+    {
+      "id": "math-9e6997691536",
+      "course": "math",
+      "title": "Kümelerde Temel Kavramlar",
+      "page": 125,
+      "level": "9. sınıf",
+      "code": "9.2.1"
+    },
+    {
+      "id": "math-248c77a4f33b",
+      "course": "math",
+      "title": "Kümelerde İşlemler",
+      "page": 126,
+      "level": "9. sınıf",
+      "code": "9.2.2"
+    },
+    {
+      "id": "math-d32ae89adf26",
+      "course": "math",
+      "title": "Sayı Kümeleri",
+      "page": 127,
+      "level": "9. sınıf",
+      "code": "9.3.1"
+    },
+    {
+      "id": "math-da71c3ad7907",
+      "course": "math",
+      "title": "Bölünebilme Kuralları",
+      "page": 127,
+      "level": "9. sınıf",
+      "code": "9.3.2"
+    },
+    {
+      "id": "math-04a2c831fc38",
+      "course": "math",
+      "title": "Birinci Dereceden Denklemler ve Eşitsizlikler",
+      "page": 127,
+      "level": "9. sınıf",
+      "code": "9.3.3"
+    },
+    {
+      "id": "math-bb680003dcd6",
+      "course": "math",
+      "title": "Üslü İfadeler ve Denklemler",
+      "page": 128,
+      "level": "9. sınıf",
+      "code": "9.3.4"
+    },
+    {
+      "id": "math-b83c87206932",
+      "course": "math",
+      "title": "Denklemler ve Eşitsizliklerle İlgili Uygulamalar",
+      "page": 128,
+      "level": "9. sınıf",
+      "code": "9.3.5"
+    },
+    {
+      "id": "math-0c3e096c2c12",
+      "course": "math",
+      "title": "Üçgenlerde Temel Kavramlar",
+      "page": 129,
+      "level": "9. sınıf",
+      "code": "9.4.1"
+    },
+    {
+      "id": "math-6b3c26533922",
+      "course": "math",
+      "title": "Üçgenlerde Eşlik ve Benzerlik",
+      "page": 129,
+      "level": "9. sınıf",
+      "code": "9.4.2"
+    },
+    {
+      "id": "math-b088d860760a",
+      "course": "math",
+      "title": "Üçgenin Yardımcı Elemanları",
+      "page": 130,
+      "level": "9. sınıf",
+      "code": "9.4.3"
+    },
+    {
+      "id": "math-c61421b1abf3",
+      "course": "math",
+      "title": "Dik Üçgen ve Trigonometri",
+      "page": 131,
+      "level": "9. sınıf",
+      "code": "9.4.4"
+    },
+    {
+      "id": "math-6734bdbc8605",
+      "course": "math",
+      "title": "Üçgenin Alanı",
+      "page": 131,
+      "level": "9. sınıf",
+      "code": "9.4.5"
+    },
+    {
+      "id": "math-a18a58b65089",
+      "course": "math",
+      "title": "Merkezî Eğilim ve Yayılım Ölçüleri",
+      "page": 132,
+      "level": "9. sınıf",
+      "code": "9.5.1"
+    },
+    {
+      "id": "math-17845086b2db",
+      "course": "math",
+      "title": "Verilerin Grafikle Gösterilmesi",
+      "page": 132,
+      "level": "9. sınıf",
+      "code": "9.5.2"
+    },
+    {
+      "id": "math-668de385cca2",
+      "course": "math",
+      "title": "Sıralama ve Seçme",
+      "page": 133,
+      "level": "10. sınıf",
+      "code": "10.1.1"
+    },
+    {
+      "id": "math-65da24eb9c16",
+      "course": "math",
+      "title": "Basit Olayların Olasılıkları",
+      "page": 134,
+      "level": "10. sınıf",
+      "code": "10.1.2"
+    },
+    {
+      "id": "math-ee7e54a9e232",
+      "course": "math",
+      "title": "Fonksiyon Kavramı ve Gösterimi",
+      "page": 134,
+      "level": "10. sınıf",
+      "code": "10.2.1"
+    },
+    {
+      "id": "math-8b3e45064f5c",
+      "course": "math",
+      "title": "İki Fonksiyonun Bileşkesi ve Bir Fonksiyonun Tersi",
+      "page": 135,
+      "level": "10. sınıf",
+      "code": "10.2.2"
+    },
+    {
+      "id": "math-654e5136c26d",
+      "course": "math",
+      "title": "Polinom Kavramı ve Polinomlarla İşlemler",
+      "page": 135,
+      "level": "10. sınıf",
+      "code": "10.3.1"
+    },
+    {
+      "id": "math-f7b5540847cd",
+      "course": "math",
+      "title": "Polinomların Çarpanlara Ayrılması",
+      "page": 136,
+      "level": "10. sınıf",
+      "code": "10.3.2"
+    },
+    {
+      "id": "math-eaeba41856e5",
+      "course": "math",
+      "title": "İkinci Dereceden Bir Bilinmeyenli Denklemler",
+      "page": 136,
+      "level": "10. sınıf",
+      "code": "10.4.1"
+    },
+    {
+      "id": "math-8aa212e74981",
+      "course": "math",
+      "title": "Çokgenler",
+      "page": 137,
+      "level": "10. sınıf",
+      "code": "10.5.1"
+    },
+    {
+      "id": "math-f51cdd506558",
+      "course": "math",
+      "title": "Dörtgenler ve Özellikleri",
+      "page": 137,
+      "level": "10. sınıf",
+      "code": "10.5.2"
+    },
+    {
+      "id": "math-015d027d27e4",
+      "course": "math",
+      "title": "Özel Dörtgenler",
+      "page": 137,
+      "level": "10. sınıf",
+      "code": "10.5.3"
+    },
+    {
+      "id": "math-c5a8dc209ab4",
+      "course": "math",
+      "title": "Katı Cisimler",
+      "page": 138,
+      "level": "10. sınıf",
+      "code": "10.6.1"
+    },
+    {
+      "id": "math-c5e0a565087b",
+      "course": "math",
+      "title": "Yönlü Açılar",
+      "page": 139,
+      "level": "11. sınıf",
+      "code": "11.1.1"
+    },
+    {
+      "id": "math-1d7d24ee635d",
+      "course": "math",
+      "title": "Trigonometrik Fonksiyonlar",
+      "page": 139,
+      "level": "11. sınıf",
+      "code": "11.1.2"
+    },
+    {
+      "id": "math-d72e3d459dce",
+      "course": "math",
+      "title": "Doğrunun Analitik İncelenmesi",
+      "page": 140,
+      "level": "11. sınıf",
+      "code": "11.2.1"
+    },
+    {
+      "id": "math-3fc2de5759dc",
+      "course": "math",
+      "title": "Fonksiyonlarla İlgili Uygulamalar",
+      "page": 140,
+      "level": "11. sınıf",
+      "code": "11.3.1"
+    },
+    {
+      "id": "math-e05e9325c6e1",
+      "course": "math",
+      "title": "İkinci Dereceden Fonksiyonlar ve Grafikleri",
+      "page": 141,
+      "level": "11. sınıf",
+      "code": "11.3.2"
+    },
+    {
+      "id": "math-ee4d18a9c147",
+      "course": "math",
+      "title": "Fonksiyonların Dönüşümleri",
+      "page": 141,
+      "level": "11. sınıf",
+      "code": "11.3.3"
+    },
+    {
+      "id": "math-75df08875820",
+      "course": "math",
+      "title": "İkinci Dereceden İki Bilinmeyenli Denklem Sistemleri",
+      "page": 141,
+      "level": "11. sınıf",
+      "code": "11.4.1"
+    },
+    {
+      "id": "math-f30571668fee",
+      "course": "math",
+      "title": "İkinci Dereceden Bir Bilinmeyenli Eşitsizlikler ve Eşitsizlik Sistemleri",
+      "page": 141,
+      "level": "11. sınıf",
+      "code": "11.4.2"
+    },
+    {
+      "id": "math-9e91b13b64f6",
+      "course": "math",
+      "title": "Çemberin Temel Elemanları",
+      "page": 142,
+      "level": "11. sınıf",
+      "code": "11.5.1"
+    },
+    {
+      "id": "math-8301cba59bcd",
+      "course": "math",
+      "title": "Çemberde Açılar",
+      "page": 142,
+      "level": "11. sınıf",
+      "code": "11.5.2"
+    },
+    {
+      "id": "math-f691df8fd2cb",
+      "course": "math",
+      "title": "Çemberde Teğet",
+      "page": 142,
+      "level": "11. sınıf",
+      "code": "11.5.3"
+    },
+    {
+      "id": "math-981ecd2d6830",
+      "course": "math",
+      "title": "Dairenin Çevresi ve Alanı",
+      "page": 142,
+      "level": "11. sınıf",
+      "code": "11.5.4"
+    },
+    {
+      "id": "math-7e4ad914d590",
+      "course": "math",
+      "title": "Katı Cisimler",
+      "page": 143,
+      "level": "11. sınıf",
+      "code": "11.6.1"
+    },
+    {
+      "id": "math-0f27a525bbd2",
+      "course": "math",
+      "title": "Koşullu Olasılık",
+      "page": 143,
+      "level": "11. sınıf",
+      "code": "11.7.1"
+    },
+    {
+      "id": "math-6138e75be2fd",
+      "course": "math",
+      "title": "Deneysel ve Teorik Olasılık",
+      "page": 143,
+      "level": "11. sınıf",
+      "code": "11.7.2"
+    },
+    {
+      "id": "math-817d2643d0d4",
+      "course": "math",
+      "title": "Üstel Fonksiyon",
+      "page": 144,
+      "level": "12. sınıf",
+      "code": "12.1.1"
+    },
+    {
+      "id": "math-64d1118c7b9d",
+      "course": "math",
+      "title": "Logaritma Fonksiyonu",
+      "page": 144,
+      "level": "12. sınıf",
+      "code": "12.1.2"
+    },
+    {
+      "id": "math-92190b6e5c78",
+      "course": "math",
+      "title": "Üstel, Logaritmik Denklemler ve Eşitsizlikler",
+      "page": 144,
+      "level": "12. sınıf",
+      "code": "12.1.3"
+    },
+    {
+      "id": "math-209bfe6c9a8d",
+      "course": "math",
+      "title": "Gerçek Sayı Dizileri",
+      "page": 145,
+      "level": "12. sınıf",
+      "code": "12.2.1"
+    },
+    {
+      "id": "math-18889b28c5fa",
+      "course": "math",
+      "title": "Toplam-Fark ve İki kat Açı Formülleri",
+      "page": 145,
+      "level": "12. sınıf",
+      "code": "12.3.1"
+    },
+    {
+      "id": "math-82617e1013f7",
+      "course": "math",
+      "title": "Trigonometrik Denklemler",
+      "page": 145,
+      "level": "12. sınıf",
+      "code": "12.3.2"
+    },
+    {
+      "id": "math-7f6252e8c466",
+      "course": "math",
+      "title": "Analitik Düzlemde Temel Dönüşümler",
+      "page": 145,
+      "level": "12. sınıf",
+      "code": "12.4.1"
+    },
+    {
+      "id": "math-5a349d3135a2",
+      "course": "math",
+      "title": "Limit ve Süreklilik",
+      "page": 146,
+      "level": "12. sınıf",
+      "code": "12.5.1"
+    },
+    {
+      "id": "math-d7f6ba106538",
+      "course": "math",
+      "title": "Anlık Değişim Oranı ve Türev",
+      "page": 146,
+      "level": "12. sınıf",
+      "code": "12.5.2"
+    },
+    {
+      "id": "math-df86e6b385ab",
+      "course": "math",
+      "title": "Türevin Uygulamaları",
+      "page": 147,
+      "level": "12. sınıf",
+      "code": "12.5.3"
+    },
+    {
+      "id": "math-0dfb634e8825",
+      "course": "math",
+      "title": "Belirsiz İntegral",
+      "page": 147,
+      "level": "12. sınıf",
+      "code": "12.6.1"
+    },
+    {
+      "id": "math-698e9480b2b2",
+      "course": "math",
+      "title": "Belirli İntegral ve Uygulamaları",
+      "page": 148,
+      "level": "12. sınıf",
+      "code": "12.6.2"
+    },
+    {
+      "id": "math-7ed8dd3ed683",
+      "course": "math",
+      "title": "Çemberin Analitik İncelenmesi",
+      "page": 148,
+      "level": "12. sınıf",
+      "code": "12.7.1"
+    },
+    {
+      "id": "math-5388c1bcf601",
+      "course": "math",
+      "title": "Sayı Kümeleri",
+      "page": 150,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.1.1"
+    },
+    {
+      "id": "math-e3a97c4bd481",
+      "course": "math",
+      "title": "Bölünebilme",
+      "page": 150,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.1.2"
+    },
+    {
+      "id": "math-e3641d82c0a6",
+      "course": "math",
+      "title": "Dik Üçgen",
+      "page": 150,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.2.1"
+    },
+    {
+      "id": "math-547a909de90d",
+      "course": "math",
+      "title": "Birinci Dereceden Denklem ve Eşitsizlikler",
+      "page": 150,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.3.1"
+    },
+    {
+      "id": "math-37e408e75eed",
+      "course": "math",
+      "title": "Bilinçli Tüketici Aritmetiği",
+      "page": 150,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.3.2"
+    },
+    {
+      "id": "math-22c07dea7192",
+      "course": "math",
+      "title": "Çemberin Temel Elemanları",
+      "page": 151,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.4.1"
+    },
+    {
+      "id": "math-146b08fae963",
+      "course": "math",
+      "title": "Çemberde Açılar",
+      "page": 151,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.4.2"
+    },
+    {
+      "id": "math-fd1fb2db27e5",
+      "course": "math",
+      "title": "Dairenin Çevresi ve Alanı",
+      "page": 151,
+      "level": "Temel düzey · 11. sınıf",
+      "code": "TD.11.4.3"
+    },
+    {
+      "id": "math-9ece0299a012",
+      "course": "math",
+      "title": "Üslü ve Köklü İfadeler",
+      "page": 152,
+      "level": "Temel düzey · 12. sınıf",
+      "code": "TD.12.1.1"
+    },
+    {
+      "id": "math-a1c319e28286",
+      "course": "math",
+      "title": "Bilinçli Tüketici Aritmetiği",
+      "page": 152,
+      "level": "Temel düzey · 12. sınıf",
+      "code": "TD.12.1.2"
+    },
+    {
+      "id": "math-2caaffae0ea6",
+      "course": "math",
+      "title": "Çevre, Alan ve Hacim Ölçme",
+      "page": 153,
+      "level": "Temel düzey · 12. sınıf",
+      "code": "TD.12.3.1"
+    },
+    {
+      "id": "math-a1d7474f8371",
+      "course": "math",
+      "title": "Küre ve Silindir",
+      "page": 153,
+      "level": "Temel düzey · 12. sınıf",
+      "code": "TD.12.4.1"
+    },
+    {
+      "id": "physics-1bf47b8ddf0e",
+      "course": "physics",
+      "title": "FİZİK BİLİMİNİN ÖNEMİ",
+      "page": 155,
+      "level": "9. sınıf",
+      "code": "9.1.1"
+    },
+    {
+      "id": "physics-5868016692ec",
+      "course": "physics",
+      "title": "FİZİĞİN UYGULAMA ALANLARI",
+      "page": 155,
+      "level": "9. sınıf",
+      "code": "9.1.2"
+    },
+    {
+      "id": "physics-cc96b612c07e",
+      "course": "physics",
+      "title": "FİZİKSEL NİCELİKLERİN SINIFLANDIRILMASI",
+      "page": 155,
+      "level": "9. sınıf",
+      "code": "9.1.3"
+    },
+    {
+      "id": "physics-9a44fde9fa26",
+      "course": "physics",
+      "title": "BİLİM ARAŞTIRMA MERKEZLERİ",
+      "page": 155,
+      "level": "9. sınıf",
+      "code": "9.1.4"
+    },
+    {
+      "id": "physics-6e59b705ff90",
+      "course": "physics",
+      "title": "MADDE VE ÖZKÜTLE",
+      "page": 155,
+      "level": "9. sınıf",
+      "code": "9.2.1"
+    },
+    {
+      "id": "physics-402c13eeb364",
+      "course": "physics",
+      "title": "DAYANIKLILIK",
+      "page": 156,
+      "level": "9. sınıf",
+      "code": "9.2.2"
+    },
+    {
+      "id": "physics-6a7f56d8551b",
+      "course": "physics",
+      "title": "YAPIŞMA VE BİRBİRİNİ TUTMA",
+      "page": 156,
+      "level": "9. sınıf",
+      "code": "9.2.3"
+    },
+    {
+      "id": "physics-fc89e931e8c8",
+      "course": "physics",
+      "title": "HAREKET",
+      "page": 156,
+      "level": "9. sınıf",
+      "code": "9.3.1"
+    },
+    {
+      "id": "physics-1b2430e9a367",
+      "course": "physics",
+      "title": "KUVVET",
+      "page": 157,
+      "level": "9. sınıf",
+      "code": "9.3.2"
+    },
+    {
+      "id": "physics-b2e1778df5f8",
+      "course": "physics",
+      "title": "NEWTON’IN HAREKET YASALARI",
+      "page": 157,
+      "level": "9. sınıf",
+      "code": "9.3.3"
+    },
+    {
+      "id": "physics-53f159d2f05b",
+      "course": "physics",
+      "title": "SÜRTÜNME KUVVETİ",
+      "page": 158,
+      "level": "9. sınıf",
+      "code": "9.3.4"
+    },
+    {
+      "id": "physics-91ec743328bf",
+      "course": "physics",
+      "title": "İŞ, ENERJİ VE GÜÇ",
+      "page": 158,
+      "level": "9. sınıf",
+      "code": "9.4.1"
+    },
+    {
+      "id": "physics-cb93e911de47",
+      "course": "physics",
+      "title": "MEKANİK ENERJİ",
+      "page": 158,
+      "level": "9. sınıf",
+      "code": "9.4.2"
+    },
+    {
+      "id": "physics-542ffde01d0f",
+      "course": "physics",
+      "title": "ENERJİNİN KORUNUMU VE ENERJİ DÖNÜŞÜMLERİ",
+      "page": 158,
+      "level": "9. sınıf",
+      "code": "9.4.3"
+    },
+    {
+      "id": "physics-4a3c7a3e8ce9",
+      "course": "physics",
+      "title": "VERİM",
+      "page": 159,
+      "level": "9. sınıf",
+      "code": "9.4.4"
+    },
+    {
+      "id": "physics-235f2ada6cc3",
+      "course": "physics",
+      "title": "ENERJİ KAYNAKLARI",
+      "page": 159,
+      "level": "9. sınıf",
+      "code": "9.4.5"
+    },
+    {
+      "id": "physics-4d812bc94cff",
+      "course": "physics",
+      "title": "ISI VE SICAKLIK",
+      "page": 159,
+      "level": "9. sınıf",
+      "code": "9.5.1"
+    },
+    {
+      "id": "physics-413acc9bcccc",
+      "course": "physics",
+      "title": "HÂL DEĞİŞİMİ",
+      "page": 159,
+      "level": "9. sınıf",
+      "code": "9.5.2"
+    },
+    {
+      "id": "physics-07ba30df32e1",
+      "course": "physics",
+      "title": "ISIL DENGE",
+      "page": 160,
+      "level": "9. sınıf",
+      "code": "9.5.3"
+    },
+    {
+      "id": "physics-b8084c2e581c",
+      "course": "physics",
+      "title": "ENERJİ İLETİM YOLLARI VE ENERJİ İLETİM HIZI",
+      "page": 160,
+      "level": "9. sınıf",
+      "code": "9.5.4"
+    },
+    {
+      "id": "physics-69541675d61e",
+      "course": "physics",
+      "title": "GENLEŞME",
+      "page": 160,
+      "level": "9. sınıf",
+      "code": "9.5.5"
+    },
+    {
+      "id": "physics-0903ee158b11",
+      "course": "physics",
+      "title": "ELEKTRİK YÜKLERİ",
+      "page": 161,
+      "level": "9. sınıf",
+      "code": "9.6.1"
+    },
+    {
+      "id": "physics-212e662d6197",
+      "course": "physics",
+      "title": "ELEKTRİK AKIMI, POTANSİYEL FARKI VE DİRENÇ",
+      "page": 161,
+      "level": "10. sınıf",
+      "code": "10.1.1"
+    },
+    {
+      "id": "physics-435c8e171eeb",
+      "course": "physics",
+      "title": "ELEKTRİK DEVRELERİ",
+      "page": 162,
+      "level": "10. sınıf",
+      "code": "10.1.2"
+    },
+    {
+      "id": "physics-77f20eee0168",
+      "course": "physics",
+      "title": "MIKNATIS VE MANYETİK ALAN",
+      "page": 162,
+      "level": "10. sınıf",
+      "code": "10.1.3"
+    },
+    {
+      "id": "physics-e61788d8ba80",
+      "course": "physics",
+      "title": "AKIM VE MANYETİK ALAN",
+      "page": 162,
+      "level": "10. sınıf",
+      "code": "10.1.4"
+    },
+    {
+      "id": "physics-aa1705fb14b2",
+      "course": "physics",
+      "title": "BASINÇ",
+      "page": 163,
+      "level": "10. sınıf",
+      "code": "10.2.1"
+    },
+    {
+      "id": "physics-8b533ae5448e",
+      "course": "physics",
+      "title": "DALGALAR",
+      "page": 164,
+      "level": "10. sınıf",
+      "code": "10.3.1"
+    },
+    {
+      "id": "physics-5e81631e9879",
+      "course": "physics",
+      "title": "YAY DALGASI",
+      "page": 164,
+      "level": "10. sınıf",
+      "code": "10.3.2"
+    },
+    {
+      "id": "physics-4375b3b76269",
+      "course": "physics",
+      "title": "KALDIRMA KUVVETİ",
+      "page": 164,
+      "level": "10. sınıf",
+      "code": "10.2.2"
+    },
+    {
+      "id": "physics-2199dda3d98a",
+      "course": "physics",
+      "title": "SES DALGASI",
+      "page": 165,
+      "level": "10. sınıf",
+      "code": "10.3.4"
+    },
+    {
+      "id": "physics-8f2170252239",
+      "course": "physics",
+      "title": "DEPREM DALGASI",
+      "page": 165,
+      "level": "10. sınıf",
+      "code": "10.3.5"
+    },
+    {
+      "id": "physics-0719c84581bf",
+      "course": "physics",
+      "title": "SU DALGASI",
+      "page": 165,
+      "level": "10. sınıf",
+      "code": "10.3.3"
+    },
+    {
+      "id": "physics-e94a04bbc8ba",
+      "course": "physics",
+      "title": "AYDINLANMA",
+      "page": 166,
+      "level": "10. sınıf",
+      "code": "10.4.1"
+    },
+    {
+      "id": "physics-06830df4c0e6",
+      "course": "physics",
+      "title": "GÖLGE",
+      "page": 166,
+      "level": "10. sınıf",
+      "code": "10.4.2"
+    },
+    {
+      "id": "physics-7cd00cf508ef",
+      "course": "physics",
+      "title": "YANSIMA",
+      "page": 166,
+      "level": "10. sınıf",
+      "code": "10.4.3"
+    },
+    {
+      "id": "physics-960192affd06",
+      "course": "physics",
+      "title": "DÜZLEM AYNA",
+      "page": 166,
+      "level": "10. sınıf",
+      "code": "10.4.4"
+    },
+    {
+      "id": "physics-b457a2c48d9b",
+      "course": "physics",
+      "title": "KÜRESEL AYNALAR",
+      "page": 166,
+      "level": "10. sınıf",
+      "code": "10.4.5"
+    },
+    {
+      "id": "physics-dfdcb8c9978f",
+      "course": "physics",
+      "title": "KIRILMA",
+      "page": 167,
+      "level": "10. sınıf",
+      "code": "10.4.6"
+    },
+    {
+      "id": "physics-b179faa1bc4d",
+      "course": "physics",
+      "title": "MERCEKLER",
+      "page": 167,
+      "level": "10. sınıf",
+      "code": "10.4.7"
+    },
+    {
+      "id": "physics-5abe3f06ec3c",
+      "course": "physics",
+      "title": "PRİZMALAR",
+      "page": 167,
+      "level": "10. sınıf",
+      "code": "10.4.8"
+    },
+    {
+      "id": "physics-2815a5cae70f",
+      "course": "physics",
+      "title": "RENK",
+      "page": 168,
+      "level": "10. sınıf",
+      "code": "10.4.9"
+    },
+    {
+      "id": "physics-aef386002142",
+      "course": "physics",
+      "title": "VEKTÖRLER",
+      "page": 168,
+      "level": "11. sınıf",
+      "code": "11.1.1"
+    },
+    {
+      "id": "physics-f1194923b0a5",
+      "course": "physics",
+      "title": "BAĞIL HAREKET",
+      "page": 168,
+      "level": "11. sınıf",
+      "code": "11.1.2"
+    },
+    {
+      "id": "physics-4046f3f50fe3",
+      "course": "physics",
+      "title": "NEWTON’IN HAREKET YASALARI",
+      "page": 169,
+      "level": "11. sınıf",
+      "code": "11.1.3"
+    },
+    {
+      "id": "physics-d7eb6b169721",
+      "course": "physics",
+      "title": "BİR BOYUTTA SABİT İVMELİ HAREKET",
+      "page": 169,
+      "level": "11. sınıf",
+      "code": "11.1.4"
+    },
+    {
+      "id": "physics-e878dd49baac",
+      "course": "physics",
+      "title": "İKİ BOYUTTA HAREKET",
+      "page": 169,
+      "level": "11. sınıf",
+      "code": "11.1.5"
+    },
+    {
+      "id": "physics-f3115a50e984",
+      "course": "physics",
+      "title": "ENERJİ VE HAREKET",
+      "page": 170,
+      "level": "11. sınıf",
+      "code": "11.1.6"
+    },
+    {
+      "id": "physics-86c279a80369",
+      "course": "physics",
+      "title": "İTME VE ÇİZGİSEL MOMENTUM",
+      "page": 170,
+      "level": "11. sınıf",
+      "code": "11.1.7"
+    },
+    {
+      "id": "physics-721c7715c94c",
+      "course": "physics",
+      "title": "TORK",
+      "page": 170,
+      "level": "11. sınıf",
+      "code": "11.1.8"
+    },
+    {
+      "id": "physics-fc30fac91b67",
+      "course": "physics",
+      "title": "DENGE VE DENGE ŞARTLARI",
+      "page": 171,
+      "level": "11. sınıf",
+      "code": "11.1.9"
+    },
+    {
+      "id": "physics-1e3595258b26",
+      "course": "physics",
+      "title": "BASİT MAKİNELER",
+      "page": 171,
+      "level": "11. sınıf",
+      "code": "11.1.10"
+    },
+    {
+      "id": "physics-6fea56e30b66",
+      "course": "physics",
+      "title": "ELEKTRİKSEL KUVVET VE ELEKTRİK ALAN",
+      "page": 171,
+      "level": "11. sınıf",
+      "code": "11.2.1"
+    },
+    {
+      "id": "physics-825e27d056c3",
+      "course": "physics",
+      "title": "ELEKTRİKSEL POTANSİYEL",
+      "page": 172,
+      "level": "11. sınıf",
+      "code": "11.2.2"
+    },
+    {
+      "id": "physics-4d5a8dd3c65c",
+      "course": "physics",
+      "title": "DÜZGÜN ELEKTRİK ALAN VE SIĞA",
+      "page": 172,
+      "level": "11. sınıf",
+      "code": "11.2.3"
+    },
+    {
+      "id": "physics-13884dd306e0",
+      "course": "physics",
+      "title": "MANYETİZMA VE ELEKTROMANYETİK İNDÜKLENME",
+      "page": 173,
+      "level": "11. sınıf",
+      "code": "11.2.4"
+    },
+    {
+      "id": "physics-8772216250df",
+      "course": "physics",
+      "title": "TRANSFORMATÖRLER",
+      "page": 174,
+      "level": "11. sınıf",
+      "code": "11.2.6"
+    },
+    {
+      "id": "physics-ebcdb5f0abc3",
+      "course": "physics",
+      "title": "DÜZGÜN ÇEMBERSEL HAREKET",
+      "page": 174,
+      "level": "12. sınıf",
+      "code": "12.1.1"
+    },
+    {
+      "id": "physics-84a0f6ec3fdd",
+      "course": "physics",
+      "title": "ALTERNATİF AKIM",
+      "page": 174,
+      "level": "11. sınıf",
+      "code": "11.2.5"
+    },
+    {
+      "id": "physics-3724965fa5af",
+      "course": "physics",
+      "title": "DÖNEREK ÖTELEME HAREKETİ",
+      "page": 175,
+      "level": "12. sınıf",
+      "code": "12.1.2"
+    },
+    {
+      "id": "physics-2cb9db7da18f",
+      "course": "physics",
+      "title": "AÇISAL MOMENTUM",
+      "page": 175,
+      "level": "12. sınıf",
+      "code": "12.1.3"
+    },
+    {
+      "id": "physics-de2249fbc9bf",
+      "course": "physics",
+      "title": "KÜTLE ÇEKİM KUVVETİ",
+      "page": 175,
+      "level": "12. sınıf",
+      "code": "12.1.4"
+    },
+    {
+      "id": "physics-6fc244b72223",
+      "course": "physics",
+      "title": "KEPLER KANUNLARI",
+      "page": 176,
+      "level": "12. sınıf",
+      "code": "12.1.5"
+    },
+    {
+      "id": "physics-49f1f06f7197",
+      "course": "physics",
+      "title": "BASİT HARMONİK HAREKET",
+      "page": 176,
+      "level": "12. sınıf",
+      "code": "12.2.1"
+    },
+    {
+      "id": "physics-85c11d057907",
+      "course": "physics",
+      "title": "DALGALARDA KIRINIM, GİRİŞİM VE DOPPLER OLAYI",
+      "page": 177,
+      "level": "12. sınıf",
+      "code": "12.3.1"
+    },
+    {
+      "id": "physics-e077bd6d78d5",
+      "course": "physics",
+      "title": "ELEKTROMANYETİK DALGALAR",
+      "page": 177,
+      "level": "12. sınıf",
+      "code": "12.3.2"
+    },
+    {
+      "id": "physics-f006c57155a0",
+      "course": "physics",
+      "title": "ATOM KAVRAMININ TARİHSEL GELİŞİMİ",
+      "page": 177,
+      "level": "12. sınıf",
+      "code": "12.4.1"
+    },
+    {
+      "id": "physics-19d36ad62405",
+      "course": "physics",
+      "title": "BÜYÜK PATLAMA VE EVRENİN OLUŞUMU",
+      "page": 178,
+      "level": "12. sınıf",
+      "code": "12.4.2"
+    },
+    {
+      "id": "physics-8ae18b50bd4f",
+      "course": "physics",
+      "title": "RADYOAKTİVİTE",
+      "page": 178,
+      "level": "12. sınıf",
+      "code": "12.4.3"
+    },
+    {
+      "id": "physics-47d70dd95796",
+      "course": "physics",
+      "title": "ÖZEL GÖRELİLİK",
+      "page": 179,
+      "level": "12. sınıf",
+      "code": "12.5.1"
+    },
+    {
+      "id": "physics-642910241625",
+      "course": "physics",
+      "title": "KUANTUM FİZİĞİNE GİRİŞ",
+      "page": 179,
+      "level": "12. sınıf",
+      "code": "12.5.2"
+    },
+    {
+      "id": "physics-ad976bf90df5",
+      "course": "physics",
+      "title": "FOTOELEKTRİK OLAYI",
+      "page": 180,
+      "level": "12. sınıf",
+      "code": "12.5.3"
+    },
+    {
+      "id": "physics-3e0b340a6cb9",
+      "course": "physics",
+      "title": "COMPTON SAÇILMASI VE DE BROGLİE DALGA BOYU",
+      "page": 180,
+      "level": "12. sınıf",
+      "code": "12.5.4"
+    },
+    {
+      "id": "physics-f3bee2eb7664",
+      "course": "physics",
+      "title": "GÖRÜNTÜLEME TEKNOLOJİLERİ",
+      "page": 180,
+      "level": "12. sınıf",
+      "code": "12.6.1"
+    },
+    {
+      "id": "physics-2d32db09b3c9",
+      "course": "physics",
+      "title": "YARI İLETKEN TEKNOLOJİSİ",
+      "page": 181,
+      "level": "12. sınıf",
+      "code": "12.6.2"
+    },
+    {
+      "id": "physics-1b4105d50b1d",
+      "course": "physics",
+      "title": "SÜPER İLETKENLER",
+      "page": 181,
+      "level": "12. sınıf",
+      "code": "12.6.3"
+    },
+    {
+      "id": "physics-b35f2e8ce273",
+      "course": "physics",
+      "title": "NANOTEKNOLOJİ",
+      "page": 181,
+      "level": "12. sınıf",
+      "code": "12.6.4"
+    },
+    {
+      "id": "physics-be5a8bd73587",
+      "course": "physics",
+      "title": "LASER IŞINLARI",
+      "page": 181,
+      "level": "12. sınıf",
+      "code": "12.6.5"
+    },
+    {
+      "id": "chemistry-7abca8a292c8",
+      "course": "chemistry",
+      "title": "Simyadan Kimyaya",
+      "page": 183,
+      "level": "9. sınıf",
+      "code": "9.1.1"
+    },
+    {
+      "id": "chemistry-d67d48e901f7",
+      "course": "chemistry",
+      "title": "Kimya Disiplinleri ve Kimyacıların Çalışma Alanları",
+      "page": 183,
+      "level": "9. sınıf",
+      "code": "9.1.2"
+    },
+    {
+      "id": "chemistry-00efcda3ece3",
+      "course": "chemistry",
+      "title": "Kimyanın Sembolik Dili",
+      "page": 183,
+      "level": "9. sınıf",
+      "code": "9.1.3"
+    },
+    {
+      "id": "chemistry-e4c3441382a1",
+      "course": "chemistry",
+      "title": "Kimya Uygulamalarında İş Sağlığı ve Güvenliği",
+      "page": 184,
+      "level": "9. sınıf",
+      "code": "9.1.4"
+    },
+    {
+      "id": "chemistry-76b6071a00f8",
+      "course": "chemistry",
+      "title": "Atom Modelleri",
+      "page": 184,
+      "level": "9. sınıf",
+      "code": "9.2.1"
+    },
+    {
+      "id": "chemistry-103f0082bd58",
+      "course": "chemistry",
+      "title": "Atomun Yapısı",
+      "page": 184,
+      "level": "9. sınıf",
+      "code": "9.2.2"
+    },
+    {
+      "id": "chemistry-098a1742e780",
+      "course": "chemistry",
+      "title": "Periyodik Sistem",
+      "page": 184,
+      "level": "9. sınıf",
+      "code": "9.2.3"
+    },
+    {
+      "id": "chemistry-0a1fb2f4a481",
+      "course": "chemistry",
+      "title": "Kimyasal Tür",
+      "page": 185,
+      "level": "9. sınıf",
+      "code": "9.3.1"
+    },
+    {
+      "id": "chemistry-77e4987916aa",
+      "course": "chemistry",
+      "title": "Kimyasal Türler Arası Etkileşimlerin Sınıflandırılması",
+      "page": 185,
+      "level": "9. sınıf",
+      "code": "9.3.2"
+    },
+    {
+      "id": "chemistry-26ab10109f64",
+      "course": "chemistry",
+      "title": "Güçlü Etkileşimler",
+      "page": 185,
+      "level": "9. sınıf",
+      "code": "9.3.3"
+    },
+    {
+      "id": "chemistry-ce74ef9171e4",
+      "course": "chemistry",
+      "title": "Zayıf Etkileşimler",
+      "page": 186,
+      "level": "9. sınıf",
+      "code": "9.3.4"
+    },
+    {
+      "id": "chemistry-952467c3d221",
+      "course": "chemistry",
+      "title": "Fiziksel ve Kimyasal Değişimler",
+      "page": 186,
+      "level": "9. sınıf",
+      "code": "9.3.5"
+    },
+    {
+      "id": "chemistry-b47ba0a80abc",
+      "course": "chemistry",
+      "title": "Maddenin Fiziksel Hâlleri",
+      "page": 187,
+      "level": "9. sınıf",
+      "code": "9.4.1"
+    },
+    {
+      "id": "chemistry-433b7e69ccff",
+      "course": "chemistry",
+      "title": "Katılar",
+      "page": 187,
+      "level": "9. sınıf",
+      "code": "9.4.2"
+    },
+    {
+      "id": "chemistry-d2302fb0004a",
+      "course": "chemistry",
+      "title": "Sıvılar",
+      "page": 187,
+      "level": "9. sınıf",
+      "code": "9.4.3"
+    },
+    {
+      "id": "chemistry-4031160c4fd6",
+      "course": "chemistry",
+      "title": "Gazlar",
+      "page": 187,
+      "level": "9. sınıf",
+      "code": "9.4.4"
+    },
+    {
+      "id": "chemistry-25abef125792",
+      "course": "chemistry",
+      "title": "Plazma",
+      "page": 188,
+      "level": "9. sınıf",
+      "code": "9.4.5"
+    },
+    {
+      "id": "chemistry-8c36efedf96a",
+      "course": "chemistry",
+      "title": "Su ve Hayat",
+      "page": 188,
+      "level": "9. sınıf",
+      "code": "9.5.1"
+    },
+    {
+      "id": "chemistry-2f7a2043c1fa",
+      "course": "chemistry",
+      "title": "Çevre Kimyası",
+      "page": 188,
+      "level": "9. sınıf",
+      "code": "9.5.2"
+    },
+    {
+      "id": "chemistry-695afde48003",
+      "course": "chemistry",
+      "title": "Kimyanın Temel Kanunları",
+      "page": 189,
+      "level": "10. sınıf",
+      "code": "10.1.1"
+    },
+    {
+      "id": "chemistry-f02cc342a11f",
+      "course": "chemistry",
+      "title": "Mol Kavramı",
+      "page": 189,
+      "level": "10. sınıf",
+      "code": "10.1.2"
+    },
+    {
+      "id": "chemistry-57c520862598",
+      "course": "chemistry",
+      "title": "Kimyasal Tepkimeler ve Denklemler",
+      "page": 189,
+      "level": "10. sınıf",
+      "code": "10.1.3"
+    },
+    {
+      "id": "chemistry-3f013e60636b",
+      "course": "chemistry",
+      "title": "Kimyasal Tepkimelerde Hesaplamalar",
+      "page": 189,
+      "level": "10. sınıf",
+      "code": "10.1.4"
+    },
+    {
+      "id": "chemistry-f4db420dcb6e",
+      "course": "chemistry",
+      "title": "Homojen ve Heterojen Karışımlar",
+      "page": 190,
+      "level": "10. sınıf",
+      "code": "10.2.1"
+    },
+    {
+      "id": "chemistry-6dbbae46c086",
+      "course": "chemistry",
+      "title": "Ayırma ve Saflaştırma Teknikleri",
+      "page": 191,
+      "level": "10. sınıf",
+      "code": "10.2.2"
+    },
+    {
+      "id": "chemistry-8b4ef74f7053",
+      "course": "chemistry",
+      "title": "Asitler ve Bazlar",
+      "page": 191,
+      "level": "10. sınıf",
+      "code": "10.3.1"
+    },
+    {
+      "id": "chemistry-63dbbe4a821c",
+      "course": "chemistry",
+      "title": "Asitlerin ve Bazların Tepkimeleri",
+      "page": 191,
+      "level": "10. sınıf",
+      "code": "10.3.2"
+    },
+    {
+      "id": "chemistry-3a246ededaca",
+      "course": "chemistry",
+      "title": "Hayatımızda Asitler ve Bazlar",
+      "page": 192,
+      "level": "10. sınıf",
+      "code": "10.3.3"
+    },
+    {
+      "id": "chemistry-d04db72f3ad2",
+      "course": "chemistry",
+      "title": "Tuzlar",
+      "page": 192,
+      "level": "10. sınıf",
+      "code": "10.3.4"
+    },
+    {
+      "id": "chemistry-189248b73b40",
+      "course": "chemistry",
+      "title": "Yaygın Günlük Hayat Kimyasalları",
+      "page": 192,
+      "level": "10. sınıf",
+      "code": "10.4.1"
+    },
+    {
+      "id": "chemistry-bfbfb2a4b13b",
+      "course": "chemistry",
+      "title": "Gıdalar",
+      "page": 193,
+      "level": "10. sınıf",
+      "code": "10.4.2"
+    },
+    {
+      "id": "chemistry-03608aff0d1f",
+      "course": "chemistry",
+      "title": "Atomun Kuantum Modeli",
+      "page": 194,
+      "level": "11. sınıf",
+      "code": "11.1.1"
+    },
+    {
+      "id": "chemistry-2be1f02348de",
+      "course": "chemistry",
+      "title": "Periyodik Sistem ve Elektron Dizilimleri",
+      "page": 194,
+      "level": "11. sınıf",
+      "code": "11.1.2"
+    },
+    {
+      "id": "chemistry-241b25b2c3a2",
+      "course": "chemistry",
+      "title": "Periyodik Özellikler",
+      "page": 194,
+      "level": "11. sınıf",
+      "code": "11.1.3"
+    },
+    {
+      "id": "chemistry-61e3f45ed58c",
+      "course": "chemistry",
+      "title": "Elementleri Tanıyalım",
+      "page": 194,
+      "level": "11. sınıf",
+      "code": "11.1.4"
+    },
+    {
+      "id": "chemistry-a0fe3c179d81",
+      "course": "chemistry",
+      "title": "Yükseltgenme Basamakları",
+      "page": 195,
+      "level": "11. sınıf",
+      "code": "11.1.5"
+    },
+    {
+      "id": "chemistry-9cbe2f7cd236",
+      "course": "chemistry",
+      "title": "Gazların Özellikleri ve Gaz Yasaları",
+      "page": 195,
+      "level": "11. sınıf",
+      "code": "11.2.1"
+    },
+    {
+      "id": "chemistry-b95e2171db6b",
+      "course": "chemistry",
+      "title": "İdeal Gaz Yasası",
+      "page": 195,
+      "level": "11. sınıf",
+      "code": "11.2.2"
+    },
+    {
+      "id": "chemistry-a9d054761158",
+      "course": "chemistry",
+      "title": "Gazlarda Kinetik Teori",
+      "page": 195,
+      "level": "11. sınıf",
+      "code": "11.2.3"
+    },
+    {
+      "id": "chemistry-7302b57b56a6",
+      "course": "chemistry",
+      "title": "Gaz Karışımları",
+      "page": 196,
+      "level": "11. sınıf",
+      "code": "11.2.4"
+    },
+    {
+      "id": "chemistry-191d4e2e8779",
+      "course": "chemistry",
+      "title": "Gerçek Gazlar",
+      "page": 196,
+      "level": "11. sınıf",
+      "code": "11.2.5"
+    },
+    {
+      "id": "chemistry-846295c9b0d1",
+      "course": "chemistry",
+      "title": "Çözücü Çözünen Etkileşimleri",
+      "page": 196,
+      "level": "11. sınıf",
+      "code": "11.3.1"
+    },
+    {
+      "id": "chemistry-7a6907211848",
+      "course": "chemistry",
+      "title": "Derişim Birimleri",
+      "page": 196,
+      "level": "11. sınıf",
+      "code": "11.3.2"
+    },
+    {
+      "id": "chemistry-96601a518d1b",
+      "course": "chemistry",
+      "title": "Koligatif Özellikler",
+      "page": 196,
+      "level": "11. sınıf",
+      "code": "11.3.3"
+    },
+    {
+      "id": "chemistry-1eee71112d12",
+      "course": "chemistry",
+      "title": "Çözünürlük",
+      "page": 197,
+      "level": "11. sınıf",
+      "code": "11.3.4"
+    },
+    {
+      "id": "chemistry-7db21852a074",
+      "course": "chemistry",
+      "title": "Çözünürlüğe Etki Eden Faktörler",
+      "page": 197,
+      "level": "11. sınıf",
+      "code": "11.3.5"
+    },
+    {
+      "id": "chemistry-85f97ecd53fa",
+      "course": "chemistry",
+      "title": "Tepkimelerde Isı Değişimi",
+      "page": 197,
+      "level": "11. sınıf",
+      "code": "11.4.1"
+    },
+    {
+      "id": "chemistry-c2f6829e6498",
+      "course": "chemistry",
+      "title": "Oluşum Entalpisi",
+      "page": 197,
+      "level": "11. sınıf",
+      "code": "11.4.2"
+    },
+    {
+      "id": "chemistry-dbdd22875275",
+      "course": "chemistry",
+      "title": "Bağ Enerjileri",
+      "page": 197,
+      "level": "11. sınıf",
+      "code": "11.4.3"
+    },
+    {
+      "id": "chemistry-06e16a882ccc",
+      "course": "chemistry",
+      "title": "Tepkime Isılarının Toplanabilirliği",
+      "page": 198,
+      "level": "11. sınıf",
+      "code": "11.4.4"
+    },
+    {
+      "id": "chemistry-39cbb090e222",
+      "course": "chemistry",
+      "title": "Tepkime Hızları",
+      "page": 198,
+      "level": "11. sınıf",
+      "code": "11.5.1"
+    },
+    {
+      "id": "chemistry-a7fc6b18289d",
+      "course": "chemistry",
+      "title": "Tepkime Hızını Etkileyen Faktörler",
+      "page": 198,
+      "level": "11. sınıf",
+      "code": "11.5.2"
+    },
+    {
+      "id": "chemistry-3aaef8f6dbbe",
+      "course": "chemistry",
+      "title": "Kimyasal Denge",
+      "page": 198,
+      "level": "11. sınıf",
+      "code": "11.6.1"
+    },
+    {
+      "id": "chemistry-b2f8283e466d",
+      "course": "chemistry",
+      "title": "Sulu Çözelti Dengeleri",
+      "page": 199,
+      "level": "11. sınıf",
+      "code": "11.6.3"
+    },
+    {
+      "id": "chemistry-d694d2448839",
+      "course": "chemistry",
+      "title": "Dengeyi Etkileyen Faktörler",
+      "page": 199,
+      "level": "11. sınıf",
+      "code": "11.6.2"
+    },
+    {
+      "id": "chemistry-4328e53abb5b",
+      "course": "chemistry",
+      "title": "İndirgenme-Yükseltgenme Tepkimelerinde Elektrik Akımı",
+      "page": 200,
+      "level": "12. sınıf",
+      "code": "12.1.1"
+    },
+    {
+      "id": "chemistry-41917c43a743",
+      "course": "chemistry",
+      "title": "Elektrotlar ve Elektrokimyasal Hücreler",
+      "page": 200,
+      "level": "12. sınıf",
+      "code": "12.1.2"
+    },
+    {
+      "id": "chemistry-f4eab8ca76d6",
+      "course": "chemistry",
+      "title": "Elektrot Potansiyelleri",
+      "page": 200,
+      "level": "12. sınıf",
+      "code": "12.1.3"
+    },
+    {
+      "id": "chemistry-d186ebd2a177",
+      "course": "chemistry",
+      "title": "Kimyasallardan Elektrik Üretimi",
+      "page": 201,
+      "level": "12. sınıf",
+      "code": "12.1.4"
+    },
+    {
+      "id": "chemistry-8d1513a2ceef",
+      "course": "chemistry",
+      "title": "Elektroliz",
+      "page": 201,
+      "level": "12. sınıf",
+      "code": "12.1.5"
+    },
+    {
+      "id": "chemistry-936069f852cd",
+      "course": "chemistry",
+      "title": "Korozyon",
+      "page": 201,
+      "level": "12. sınıf",
+      "code": "12.1.6"
+    },
+    {
+      "id": "chemistry-09f23a75c532",
+      "course": "chemistry",
+      "title": "Anorganik ve Organik Bileşikler",
+      "page": 201,
+      "level": "12. sınıf",
+      "code": "12.2.1"
+    },
+    {
+      "id": "chemistry-09388a03a947",
+      "course": "chemistry",
+      "title": "Basit Formül ve Molekül Formülü",
+      "page": 201,
+      "level": "12. sınıf",
+      "code": "12.2.2"
+    },
+    {
+      "id": "chemistry-7b84f1a5eb37",
+      "course": "chemistry",
+      "title": "Doğada Karbon",
+      "page": 202,
+      "level": "12. sınıf",
+      "code": "12.2.3"
+    },
+    {
+      "id": "chemistry-317164572375",
+      "course": "chemistry",
+      "title": "Lewis Formülleri",
+      "page": 202,
+      "level": "12. sınıf",
+      "code": "12.2.4"
+    },
+    {
+      "id": "chemistry-c88f4cc2eaed",
+      "course": "chemistry",
+      "title": "Hibritleşme-Molekül Geometrileri",
+      "page": 202,
+      "level": "12. sınıf",
+      "code": "12.2.5"
+    },
+    {
+      "id": "chemistry-4510d15fba52",
+      "course": "chemistry",
+      "title": "Hidrokarbonlar",
+      "page": 202,
+      "level": "12. sınıf",
+      "code": "12.3.1"
+    },
+    {
+      "id": "chemistry-ce2066c39d5b",
+      "course": "chemistry",
+      "title": "Fonksiyonel Gruplar",
+      "page": 203,
+      "level": "12. sınıf",
+      "code": "12.3.2"
+    },
+    {
+      "id": "chemistry-be06e20efc3e",
+      "course": "chemistry",
+      "title": "Alkoller",
+      "page": 203,
+      "level": "12. sınıf",
+      "code": "12.3.3"
+    },
+    {
+      "id": "chemistry-faab94b6e721",
+      "course": "chemistry",
+      "title": "Eterler",
+      "page": 203,
+      "level": "12. sınıf",
+      "code": "12.3.4"
+    },
+    {
+      "id": "chemistry-0d545c10b874",
+      "course": "chemistry",
+      "title": "Karbonil Bileşikleri",
+      "page": 203,
+      "level": "12. sınıf",
+      "code": "12.3.5"
+    },
+    {
+      "id": "chemistry-375d1c3da292",
+      "course": "chemistry",
+      "title": "Karboksilik Asitler",
+      "page": 203,
+      "level": "12. sınıf",
+      "code": "12.3.6"
+    },
+    {
+      "id": "chemistry-192debd74900",
+      "course": "chemistry",
+      "title": "Esterler",
+      "page": 204,
+      "level": "12. sınıf",
+      "code": "12.3.7"
+    },
+    {
+      "id": "chemistry-0f8d4bdd225a",
+      "course": "chemistry",
+      "title": "Fosil Yakıtlar",
+      "page": 204,
+      "level": "12. sınıf",
+      "code": "12.4.1"
+    },
+    {
+      "id": "chemistry-aad03853d44b",
+      "course": "chemistry",
+      "title": "Alternatif Enerji Kaynakları",
+      "page": 204,
+      "level": "12. sınıf",
+      "code": "12.4.2"
+    },
+    {
+      "id": "chemistry-872c1e1e2c00",
+      "course": "chemistry",
+      "title": "Sürdürülebilirlik",
+      "page": 204,
+      "level": "12. sınıf",
+      "code": "12.4.3"
+    },
+    {
+      "id": "chemistry-1eda7236a0a4",
+      "course": "chemistry",
+      "title": "Nanoteknoloji",
+      "page": 205,
+      "level": "12. sınıf",
+      "code": "12.4.4"
+    },
+    {
+      "id": "biology-d6df8ba932dc",
+      "course": "biology",
+      "title": "Biyoloji ve Canlıların Ortak Özellikleri",
+      "page": 208,
+      "level": "9. sınıf",
+      "code": "9.1.1"
+    },
+    {
+      "id": "biology-364dd8278a7c",
+      "course": "biology",
+      "title": "Canlıların Yapısında Bulunan Temel Bileşikler",
+      "page": 208,
+      "level": "9. sınıf",
+      "code": "9.1.2"
+    },
+    {
+      "id": "biology-07cf02d96be6",
+      "course": "biology",
+      "title": "Hücre",
+      "page": 209,
+      "level": "9. sınıf",
+      "code": "9.2.1"
+    },
+    {
+      "id": "biology-9a1025102192",
+      "course": "biology",
+      "title": "Canlıların Çeşitliliği ve Sınıflandırılması",
+      "page": 210,
+      "level": "9. sınıf",
+      "code": "9.3.1"
+    },
+    {
+      "id": "biology-657a71c437fd",
+      "course": "biology",
+      "title": "Canlı Âlemleri ve Özellikleri",
+      "page": 210,
+      "level": "9. sınıf",
+      "code": "9.3.2"
+    },
+    {
+      "id": "biology-9b2e2fec8970",
+      "course": "biology",
+      "title": "Mitoz ve Eşeysiz Üreme",
+      "page": 211,
+      "level": "10. sınıf",
+      "code": "10.1.1"
+    },
+    {
+      "id": "biology-3ce08e6735ad",
+      "course": "biology",
+      "title": "Mayoz ve Eşeyli Üreme",
+      "page": 211,
+      "level": "10. sınıf",
+      "code": "10.1.2"
+    },
+    {
+      "id": "biology-ecc0af66c910",
+      "course": "biology",
+      "title": "Kalıtım ve Biyolojik Çeşitlilik",
+      "page": 212,
+      "level": "10. sınıf",
+      "code": "10.2.1"
+    },
+    {
+      "id": "biology-40609675a261",
+      "course": "biology",
+      "title": "Ekosistem Ekolojisi",
+      "page": 212,
+      "level": "10. sınıf",
+      "code": "10.3.1"
+    },
+    {
+      "id": "biology-bcf8ff453af1",
+      "course": "biology",
+      "title": "Güncel Çevre Sorunları ve İnsan",
+      "page": 213,
+      "level": "10. sınıf",
+      "code": "10.3.2"
+    },
+    {
+      "id": "biology-a2c37487e297",
+      "course": "biology",
+      "title": "Doğal Kaynaklar ve Biyolojik Çeşitliliğin Korunması",
+      "page": 214,
+      "level": "10. sınıf",
+      "code": "10.3.3"
+    },
+    {
+      "id": "biology-dd98bc1e2408",
+      "course": "biology",
+      "title": "Denetleyici ve Düzeleyici Sistem, Duyu Organları",
+      "page": 215,
+      "level": "11. sınıf",
+      "code": "11.1.1"
+    },
+    {
+      "id": "biology-8b89bb8cf331",
+      "course": "biology",
+      "title": "Destek ve Hareket Sistemi",
+      "page": 216,
+      "level": "11. sınıf",
+      "code": "11.1.2"
+    },
+    {
+      "id": "biology-10041e6c8374",
+      "course": "biology",
+      "title": "Sindirim Sistemi",
+      "page": 217,
+      "level": "11. sınıf",
+      "code": "11.1.3"
+    },
+    {
+      "id": "biology-4f9cd392a160",
+      "course": "biology",
+      "title": "Dolaşım Sistemleri",
+      "page": 217,
+      "level": "11. sınıf",
+      "code": "11.1.4"
+    },
+    {
+      "id": "biology-c58ebcbb6ccb",
+      "course": "biology",
+      "title": "Solunum Sistemi",
+      "page": 218,
+      "level": "11. sınıf",
+      "code": "11.1.5"
+    },
+    {
+      "id": "biology-c5c3efd2ee1a",
+      "course": "biology",
+      "title": "Üriner Sistem",
+      "page": 219,
+      "level": "11. sınıf",
+      "code": "11.1.6"
+    },
+    {
+      "id": "biology-ee313dfcac9c",
+      "course": "biology",
+      "title": "Üreme Sistemi ve Embriyonik Gelişim",
+      "page": 219,
+      "level": "11. sınıf",
+      "code": "11.1.7"
+    },
+    {
+      "id": "biology-2de50865c4d7",
+      "course": "biology",
+      "title": "Komünite Ekolojisi",
+      "page": 220,
+      "level": "11. sınıf",
+      "code": "11.2.1"
+    },
+    {
+      "id": "biology-923c71610209",
+      "course": "biology",
+      "title": "Popülasyon Ekolojisi",
+      "page": 220,
+      "level": "11. sınıf",
+      "code": "11.2.2"
+    },
+    {
+      "id": "biology-a915e0ab5e55",
+      "course": "biology",
+      "title": "Nükleik Asitlerin Keşfi ve Önemi",
+      "page": 221,
+      "level": "12. sınıf",
+      "code": "12.1.1"
+    },
+    {
+      "id": "biology-78d09ba832e5",
+      "course": "biology",
+      "title": "Genetik Şifre ve Protein Sentezi",
+      "page": 221,
+      "level": "12. sınıf",
+      "code": "12.1.2"
+    },
+    {
+      "id": "biology-a61993f38ae4",
+      "course": "biology",
+      "title": "Canlılık ve Enerji",
+      "page": 222,
+      "level": "12. sınıf",
+      "code": "12.2.1"
+    },
+    {
+      "id": "biology-7c5301582c34",
+      "course": "biology",
+      "title": "Fotosentez",
+      "page": 222,
+      "level": "12. sınıf",
+      "code": "12.2.2"
+    },
+    {
+      "id": "biology-6cada26e2fb0",
+      "course": "biology",
+      "title": "Kemosentez",
+      "page": 223,
+      "level": "12. sınıf",
+      "code": "12.2.3"
+    },
+    {
+      "id": "biology-ad3d99d28bd2",
+      "course": "biology",
+      "title": "Hücresel Solunum",
+      "page": 223,
+      "level": "12. sınıf",
+      "code": "12.2.4"
+    },
+    {
+      "id": "biology-0f47f23fee3d",
+      "course": "biology",
+      "title": "Bitkilerin Yapısı",
+      "page": 224,
+      "level": "12. sınıf",
+      "code": "12.3.1"
+    },
+    {
+      "id": "biology-1780daa2d347",
+      "course": "biology",
+      "title": "Bitkilerde Madde Taşınması",
+      "page": 224,
+      "level": "12. sınıf",
+      "code": "12.3.2"
+    },
+    {
+      "id": "biology-3be6a3575951",
+      "course": "biology",
+      "title": "Bitkilerde Eşeyli Üreme",
+      "page": 225,
+      "level": "12. sınıf",
+      "code": "12.3.3"
+    },
+    {
+      "id": "biology-1ce6eaa4a7f4",
+      "course": "biology",
+      "title": "Canlılar ve Çevre",
+      "page": 225,
+      "level": "12. sınıf",
+      "code": "12.4.1"
+    },
+    {
+      "id": "philosophy-113222a50f27",
+      "course": "philosophy",
+      "title": "FELSEFEYİ TANIMA",
+      "page": 228,
+      "level": "10. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "philosophy-9da9e9f8538a",
+      "course": "philosophy",
+      "title": "FELSEFE İLE DÜŞÜNME",
+      "page": 229,
+      "level": "10. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "philosophy-e2b8cc00633e",
+      "course": "philosophy",
+      "title": "FELSEFENİN TEMEL KONULARI VE PROBLEMLERİ",
+      "page": 230,
+      "level": "10. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "philosophy-0a7ff25d43c2",
+      "course": "philosophy",
+      "title": "FELSEFİ OKUMA VE YAZMA",
+      "page": 232,
+      "level": "10. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "philosophy-ab5c7fdb912e",
+      "course": "philosophy",
+      "title": "MÖ 6. YÜZYIL-MS 2. YÜZYIL FELSEFESİ",
+      "page": 233,
+      "level": "11. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "philosophy-349563ca39ac",
+      "course": "philosophy",
+      "title": "MS 2. YÜZYIL-MS 15. YÜZYIL FELSEFESİ",
+      "page": 234,
+      "level": "11. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "philosophy-bfaf014ce309",
+      "course": "philosophy",
+      "title": "15. YÜZYIL-17. YÜZYIL FELSEFESİ",
+      "page": 235,
+      "level": "11. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "philosophy-afb7c10b34ff",
+      "course": "philosophy",
+      "title": "18. YÜZYIL-19. YÜZYIL FELSEFESİ",
+      "page": 236,
+      "level": "11. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "philosophy-236e921404fc",
+      "course": "philosophy",
+      "title": "20. YÜZYIL FELSEFESİ",
+      "page": 237,
+      "level": "11. sınıf",
+      "code": "5"
+    },
+    {
+      "id": "logic-4923275be289",
+      "course": "logic",
+      "title": "MANTIĞA GİRİŞ",
+      "page": 240,
+      "level": "Ortak",
+      "code": "1"
+    },
+    {
+      "id": "logic-92aa74bd5452",
+      "course": "logic",
+      "title": "KLASİK MANTIK",
+      "page": 241,
+      "level": "Ortak",
+      "code": "2"
+    },
+    {
+      "id": "logic-cf04e96310f5",
+      "course": "logic",
+      "title": "MANTIK VE DİL",
+      "page": 243,
+      "level": "Ortak",
+      "code": "3"
+    },
+    {
+      "id": "logic-788c991af192",
+      "course": "logic",
+      "title": "SEMBOLİK MANTIK",
+      "page": 244,
+      "level": "Ortak",
+      "code": "4"
+    },
+    {
+      "id": "sociology-78f40744449f",
+      "course": "sociology",
+      "title": "SOSYOLOJİYE GİRİŞ",
+      "page": 248,
+      "level": "Ortak",
+      "code": "1"
+    },
+    {
+      "id": "sociology-83987d33fcfc",
+      "course": "sociology",
+      "title": "BİREY VE TOPLUM",
+      "page": 249,
+      "level": "Ortak",
+      "code": "2"
+    },
+    {
+      "id": "sociology-e9481bf87a6f",
+      "course": "sociology",
+      "title": "TOPLUMSAL YAPI",
+      "page": 250,
+      "level": "Ortak",
+      "code": "3"
+    },
+    {
+      "id": "sociology-58c801dc62ce",
+      "course": "sociology",
+      "title": "TOPLUMSAL DEĞİŞME VE GELİŞME",
+      "page": 251,
+      "level": "Ortak",
+      "code": "4"
+    },
+    {
+      "id": "sociology-db78e779e34b",
+      "course": "sociology",
+      "title": "TOPLUM VE KÜLTÜR",
+      "page": 253,
+      "level": "Ortak",
+      "code": "5"
+    },
+    {
+      "id": "sociology-afcc77ac2586",
+      "course": "sociology",
+      "title": "TOPLUMSAL KURUMLAR",
+      "page": 254,
+      "level": "Ortak",
+      "code": "6"
+    },
+    {
+      "id": "psychology-1716978a1112",
+      "course": "psychology",
+      "title": "Psikoloji Bilimini Tanıyalım",
+      "page": 259,
+      "level": "Ortak",
+      "code": ""
+    },
+    {
+      "id": "psychology-dc667ed491da",
+      "course": "psychology",
+      "title": "Psikolojinin Temel Süreçleri",
+      "page": 261,
+      "level": "Ortak",
+      "code": ""
+    },
+    {
+      "id": "psychology-03b799ee3bb2",
+      "course": "psychology",
+      "title": "Öğrenme, Bellek ve Düşünme",
+      "page": 265,
+      "level": "Ortak",
+      "code": ""
+    },
+    {
+      "id": "psychology-8b6c0cd6b19e",
+      "course": "psychology",
+      "title": "Ruh Sağlığının Temelleri",
+      "page": 267,
+      "level": "Ortak",
+      "code": ""
+    },
+    {
+      "id": "english-4c37a6046376",
+      "course": "english",
+      "title": "STUDYING ABROAD",
+      "page": 273,
+      "level": "9. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "english-0c79dd913f8a",
+      "course": "english",
+      "title": "MY ENVIRONMENT",
+      "page": 274,
+      "level": "9. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "english-af4e3d3f6326",
+      "course": "english",
+      "title": "MOVIES",
+      "page": 275,
+      "level": "9. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "english-299b307ad162",
+      "course": "english",
+      "title": "HUMAN IN NATURE",
+      "page": 276,
+      "level": "9. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "english-8e41b7789489",
+      "course": "english",
+      "title": "INSPIRATIONAL PEOPLE",
+      "page": 277,
+      "level": "9. sınıf",
+      "code": "5"
+    },
+    {
+      "id": "english-b03ddf9b1935",
+      "course": "english",
+      "title": "BRIDGING CULTURES",
+      "page": 278,
+      "level": "9. sınıf",
+      "code": "6"
+    },
+    {
+      "id": "english-bccf9aa7deb7",
+      "course": "english",
+      "title": "WORLD HERITAGE",
+      "page": 279,
+      "level": "9. sınıf",
+      "code": "7"
+    },
+    {
+      "id": "english-64407ab0e60d",
+      "course": "english",
+      "title": "EMERGENCY AND HEALTH PROBLEMS",
+      "page": 280,
+      "level": "9. sınıf",
+      "code": "8"
+    },
+    {
+      "id": "english-b85a788bde17",
+      "course": "english",
+      "title": "INVITATIONS AND CELEBRATIONS",
+      "page": 281,
+      "level": "9. sınıf",
+      "code": "9"
+    },
+    {
+      "id": "english-b888a2a619eb",
+      "course": "english",
+      "title": "TELEVISION AND SOCIAL MEDIA",
+      "page": 282,
+      "level": "9. sınıf",
+      "code": "10"
+    },
+    {
+      "id": "english-3aaaddbad384",
+      "course": "english",
+      "title": "SCHOOL LIFE",
+      "page": 284,
+      "level": "10. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "english-f16418989c3b",
+      "course": "english",
+      "title": "PLANS",
+      "page": 285,
+      "level": "10. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "english-d1d6719a9bdb",
+      "course": "english",
+      "title": "LEGENDARY FIGURE",
+      "page": 286,
+      "level": "10. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "english-be5696ec7f64",
+      "course": "english",
+      "title": "TRADITIONS",
+      "page": 287,
+      "level": "10. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "english-575f446a460e",
+      "course": "english",
+      "title": "TRAVEL",
+      "page": 288,
+      "level": "10. sınıf",
+      "code": "5"
+    },
+    {
+      "id": "english-294474c576ae",
+      "course": "english",
+      "title": "HELPFUL TIPS",
+      "page": 289,
+      "level": "10. sınıf",
+      "code": "6"
+    },
+    {
+      "id": "english-1faa9827f30f",
+      "course": "english",
+      "title": "FOOD AND FESTIVALS",
+      "page": 290,
+      "level": "10. sınıf",
+      "code": "7"
+    },
+    {
+      "id": "english-fb7064fedc96",
+      "course": "english",
+      "title": "DIGITAL ERA",
+      "page": 291,
+      "level": "10. sınıf",
+      "code": "8"
+    },
+    {
+      "id": "english-49a4f764e391",
+      "course": "english",
+      "title": "MODERN HEROES AND HEROINES",
+      "page": 292,
+      "level": "10. sınıf",
+      "code": "9"
+    },
+    {
+      "id": "english-a7135681e085",
+      "course": "english",
+      "title": "SHOPPING",
+      "page": 293,
+      "level": "10. sınıf",
+      "code": "10"
+    },
+    {
+      "id": "english-e25cfdc22a6b",
+      "course": "english",
+      "title": "FUTURE JOBS",
+      "page": 295,
+      "level": "11. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "english-1992bddc29a8",
+      "course": "english",
+      "title": "HOBBIES AND SKILLS",
+      "page": 296,
+      "level": "11. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "english-d2d6890c92e9",
+      "course": "english",
+      "title": "HARD TIMES",
+      "page": 297,
+      "level": "11. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "english-51a5b3624e1d",
+      "course": "english",
+      "title": "WHAT A LIFE",
+      "page": 298,
+      "level": "11. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "english-6491d5110520",
+      "course": "english",
+      "title": "BACK TO THE PAST",
+      "page": 299,
+      "level": "11. sınıf",
+      "code": "5"
+    },
+    {
+      "id": "english-5bc44116d90e",
+      "course": "english",
+      "title": "OPEN YOUR HEART",
+      "page": 300,
+      "level": "11. sınıf",
+      "code": "6"
+    },
+    {
+      "id": "english-d5e3bcfe819b",
+      "course": "english",
+      "title": "FACTS ABOUT TURKEY",
+      "page": 301,
+      "level": "11. sınıf",
+      "code": "7"
+    },
+    {
+      "id": "english-b93ad99bf6d3",
+      "course": "english",
+      "title": "SPORTS",
+      "page": 302,
+      "level": "11. sınıf",
+      "code": "8"
+    },
+    {
+      "id": "english-93e7787397e1",
+      "course": "english",
+      "title": "MY FRIENDS",
+      "page": 303,
+      "level": "11. sınıf",
+      "code": "9"
+    },
+    {
+      "id": "english-169cdca664f7",
+      "course": "english",
+      "title": "VALUES AND NORMS",
+      "page": 304,
+      "level": "11. sınıf",
+      "code": "10"
+    },
+    {
+      "id": "english-8e5f4a57e081",
+      "course": "english",
+      "title": "MUSIC",
+      "page": 306,
+      "level": "12. sınıf",
+      "code": "1"
+    },
+    {
+      "id": "english-bd96abf8f828",
+      "course": "english",
+      "title": "FRIENDSHIP",
+      "page": 307,
+      "level": "12. sınıf",
+      "code": "2"
+    },
+    {
+      "id": "english-c388501dd6a0",
+      "course": "english",
+      "title": "HUMAN RIGHTS",
+      "page": 308,
+      "level": "12. sınıf",
+      "code": "3"
+    },
+    {
+      "id": "english-edf70d817df1",
+      "course": "english",
+      "title": "COMING SOON",
+      "page": 309,
+      "level": "12. sınıf",
+      "code": "4"
+    },
+    {
+      "id": "english-a452a1e41e67",
+      "course": "english",
+      "title": "PSYCHOLOGY",
+      "page": 310,
+      "level": "12. sınıf",
+      "code": "5"
+    },
+    {
+      "id": "english-cf09510445a7",
+      "course": "english",
+      "title": "FAVORS",
+      "page": 311,
+      "level": "12. sınıf",
+      "code": "6"
+    },
+    {
+      "id": "english-bfd9870d7de1",
+      "course": "english",
+      "title": "NEWS STORIES",
+      "page": 312,
+      "level": "12. sınıf",
+      "code": "7"
+    },
+    {
+      "id": "english-dcf2e4c6d7d4",
+      "course": "english",
+      "title": "ALTERNATIVE ENERGY",
+      "page": 313,
+      "level": "12. sınıf",
+      "code": "8"
+    },
+    {
+      "id": "english-201976568ea6",
+      "course": "english",
+      "title": "TECHNOLOGY",
+      "page": 314,
+      "level": "12. sınıf",
+      "code": "9"
+    },
+    {
+      "id": "english-c6a24582f903",
+      "course": "english",
+      "title": "MANNERS",
+      "page": 315,
+      "level": "12. sınıf",
+      "code": "10"
+    },
+    {
+      "id": "german-a452b4cbd758",
+      "course": "german",
+      "title": "Informationen zur Person",
+      "page": 319,
+      "level": "A1.1",
+      "code": "1"
+    },
+    {
+      "id": "german-f906ef3e7188",
+      "course": "german",
+      "title": "Die Schule",
+      "page": 320,
+      "level": "A1.1",
+      "code": "2"
+    },
+    {
+      "id": "german-a6d341f2c11e",
+      "course": "german",
+      "title": "Die Gesellschaft",
+      "page": 321,
+      "level": "A1.1",
+      "code": "3"
+    },
+    {
+      "id": "german-db9c8eeb28ba",
+      "course": "german",
+      "title": "Tägliches Leben",
+      "page": 322,
+      "level": "A1.1",
+      "code": "4"
+    },
+    {
+      "id": "german-40ceed48b99a",
+      "course": "german",
+      "title": "Essen und Trinken",
+      "page": 323,
+      "level": "A1.1",
+      "code": "5"
+    },
+    {
+      "id": "german-50bfa195a561",
+      "course": "german",
+      "title": "Besondere Tage",
+      "page": 324,
+      "level": "A1.1",
+      "code": "6"
+    },
+    {
+      "id": "german-270cbf600027",
+      "course": "german",
+      "title": "Freizeitaktivitäten",
+      "page": 325,
+      "level": "A1.1",
+      "code": "7"
+    },
+    {
+      "id": "german-c66bf8654253",
+      "course": "german",
+      "title": "Einkaufen",
+      "page": 326,
+      "level": "A1.1",
+      "code": "8"
+    },
+    {
+      "id": "german-3286476d4d5c",
+      "course": "german",
+      "title": "Unterkunft",
+      "page": 327,
+      "level": "A1.2",
+      "code": "1"
+    },
+    {
+      "id": "german-e18a9b1cf772",
+      "course": "german",
+      "title": "Gesundheit",
+      "page": 328,
+      "level": "A1.2",
+      "code": "2"
+    },
+    {
+      "id": "german-861a73387346",
+      "course": "german",
+      "title": "Im Einkaufszentrum",
+      "page": 329,
+      "level": "A1.2",
+      "code": "3"
+    },
+    {
+      "id": "german-0454347336db",
+      "course": "german",
+      "title": "Urlaub und Reisen",
+      "page": 330,
+      "level": "A1.2",
+      "code": "4"
+    },
+    {
+      "id": "german-fde20e260ae1",
+      "course": "german",
+      "title": "Neue Stadt – Neue Schule",
+      "page": 331,
+      "level": "A1.2",
+      "code": "5"
+    },
+    {
+      "id": "german-a91604d63af7",
+      "course": "german",
+      "title": "Traditionen",
+      "page": 332,
+      "level": "A1.2",
+      "code": "6"
+    },
+    {
+      "id": "german-d3a729528015",
+      "course": "german",
+      "title": "Länder und Städte",
+      "page": 333,
+      "level": "A1.2",
+      "code": "7"
+    },
+    {
+      "id": "german-355b29278056",
+      "course": "german",
+      "title": "Essen und Trinken",
+      "page": 334,
+      "level": "A1.2",
+      "code": "8"
+    },
+    {
+      "id": "german-06147e265810",
+      "course": "german",
+      "title": "Reiseerlebnisse",
+      "page": 336,
+      "level": "A2.1",
+      "code": "1"
+    },
+    {
+      "id": "german-a1ca8644c903",
+      "course": "german",
+      "title": "Umziehen - Einziehen",
+      "page": 337,
+      "level": "A2.1",
+      "code": "2"
+    },
+    {
+      "id": "german-89c944507d65",
+      "course": "german",
+      "title": "Sport macht fit",
+      "page": 338,
+      "level": "A2.1",
+      "code": "3"
+    },
+    {
+      "id": "german-00ff0ae9e9c3",
+      "course": "german",
+      "title": "Arbeit und Berufe",
+      "page": 339,
+      "level": "A2.1",
+      "code": "4"
+    },
+    {
+      "id": "german-78da731b4d1a",
+      "course": "german",
+      "title": "Feste und Geschenke",
+      "page": 340,
+      "level": "A2.1",
+      "code": "5"
+    },
+    {
+      "id": "german-cacedef49a12",
+      "course": "german",
+      "title": "Ausbildung",
+      "page": 341,
+      "level": "A2.1",
+      "code": "6"
+    },
+    {
+      "id": "german-bd5a5c98905a",
+      "course": "german",
+      "title": "Essen",
+      "page": 342,
+      "level": "A2.2",
+      "code": "1"
+    },
+    {
+      "id": "german-9276abf1c0e2",
+      "course": "german",
+      "title": "Unterwegs",
+      "page": 343,
+      "level": "A2.2",
+      "code": "2"
+    },
+    {
+      "id": "german-f39d235d3a6c",
+      "course": "german",
+      "title": "Freizeit und Interessen",
+      "page": 344,
+      "level": "A2.2",
+      "code": "3"
+    },
+    {
+      "id": "german-12ddd4b93076",
+      "course": "german",
+      "title": "Technik",
+      "page": 345,
+      "level": "A2.2",
+      "code": "4"
+    },
+    {
+      "id": "german-a59cca89eed5",
+      "course": "german",
+      "title": "Kommunikation",
+      "page": 346,
+      "level": "A2.2",
+      "code": "5"
+    },
+    {
+      "id": "german-131d3ecd1a21",
+      "course": "german",
+      "title": "Sparen",
+      "page": 347,
+      "level": "A2.2",
+      "code": "6"
+    },
+    {
+      "id": "french-49e98bc0b0e7",
+      "course": "french",
+      "title": "L’INDIVIDU ET LA SOCIÉTÉ",
+      "page": 351,
+      "level": "A1.1",
+      "code": "1"
+    },
+    {
+      "id": "french-e831ce7e7f9b",
+      "course": "french",
+      "title": "L’ÉDUCATION",
+      "page": 352,
+      "level": "A1.1",
+      "code": "2"
+    },
+    {
+      "id": "french-982c70f4f56a",
+      "course": "french",
+      "title": "LES MÉTIERS",
+      "page": 353,
+      "level": "A1.1",
+      "code": "3"
+    },
+    {
+      "id": "french-45afeb4cae15",
+      "course": "french",
+      "title": "LA JEUNESSE",
+      "page": 354,
+      "level": "A1.1",
+      "code": "4"
+    },
+    {
+      "id": "french-2d0454af0f7b",
+      "course": "french",
+      "title": "LE SPORT",
+      "page": 355,
+      "level": "A1.1",
+      "code": "5"
+    },
+    {
+      "id": "french-9a47f3b3304b",
+      "course": "french",
+      "title": "LES RÊVES ET LES PLANS",
+      "page": 356,
+      "level": "A1.1",
+      "code": "6"
+    },
+    {
+      "id": "french-d6f66d0973a6",
+      "course": "french",
+      "title": "LA COMMUNICATION",
+      "page": 357,
+      "level": "A1.1",
+      "code": "7"
+    },
+    {
+      "id": "french-1487975bc520",
+      "course": "french",
+      "title": "L’ART",
+      "page": 358,
+      "level": "A1.1",
+      "code": "8"
+    },
+    {
+      "id": "french-140561168fe3",
+      "course": "french",
+      "title": "L’INDIVIDU ET LA SOCIÉTÉ",
+      "page": 359,
+      "level": "A1.2",
+      "code": "1"
+    },
+    {
+      "id": "french-0daed56bd30e",
+      "course": "french",
+      "title": "L’ÉDUCATION",
+      "page": 360,
+      "level": "A1.2",
+      "code": "2"
+    },
+    {
+      "id": "french-40e79c740b44",
+      "course": "french",
+      "title": "LES MÉTIERS",
+      "page": 361,
+      "level": "A1.2",
+      "code": "3"
+    },
+    {
+      "id": "french-41c8f6f37c49",
+      "course": "french",
+      "title": "LA JEUNESSE",
+      "page": 362,
+      "level": "A1.2",
+      "code": "4"
+    },
+    {
+      "id": "french-fbb56d2d9121",
+      "course": "french",
+      "title": "LE SPORT",
+      "page": 363,
+      "level": "A1.2",
+      "code": "5"
+    },
+    {
+      "id": "french-34a4486ebc0f",
+      "course": "french",
+      "title": "LES RÊVES ET LES PLANS",
+      "page": 364,
+      "level": "A1.2",
+      "code": "6"
+    },
+    {
+      "id": "french-214c3b08d67e",
+      "course": "french",
+      "title": "LA COMMUNICATION",
+      "page": 365,
+      "level": "A1.2",
+      "code": "7"
+    },
+    {
+      "id": "french-542a554b830d",
+      "course": "french",
+      "title": "L’ART",
+      "page": 366,
+      "level": "A1.2",
+      "code": "8"
+    },
+    {
+      "id": "french-27de0b18a692",
+      "course": "french",
+      "title": "L’INDIVIDU ET LA SOCIÉTÉ",
+      "page": 368,
+      "level": "A2.1",
+      "code": "1"
+    },
+    {
+      "id": "french-f4faaffe3b2f",
+      "course": "french",
+      "title": "LA PERSONNALITÉ ET LE CARACTÈRE",
+      "page": 369,
+      "level": "A2.1",
+      "code": "2"
+    },
+    {
+      "id": "french-3aacdcee2de2",
+      "course": "french",
+      "title": "LA SANTÉ",
+      "page": 370,
+      "level": "A2.1",
+      "code": "3"
+    },
+    {
+      "id": "french-36be4facd5aa",
+      "course": "french",
+      "title": "LA NATURE",
+      "page": 371,
+      "level": "A2.1",
+      "code": "4"
+    },
+    {
+      "id": "french-eb8a3e571da8",
+      "course": "french",
+      "title": "L’HISTOIRE",
+      "page": 372,
+      "level": "A2.1",
+      "code": "5"
+    },
+    {
+      "id": "french-43edf332377b",
+      "course": "french",
+      "title": "LA SCIENCE ET LA TECHNOLOGIE",
+      "page": 373,
+      "level": "A2.1",
+      "code": "6"
+    },
+    {
+      "id": "french-be87b44607ec",
+      "course": "french",
+      "title": "L’INDIVIDU ET LA SOCIÉTÉ",
+      "page": 374,
+      "level": "A2.2",
+      "code": "1"
+    },
+    {
+      "id": "french-f94685181701",
+      "course": "french",
+      "title": "LA PERSONNALITÉ ET LE CARACTÈRE",
+      "page": 375,
+      "level": "A2.2",
+      "code": "2"
+    },
+    {
+      "id": "french-5c4c6f1d1f9a",
+      "course": "french",
+      "title": "LA SANTÉ",
+      "page": 376,
+      "level": "A2.2",
+      "code": "3"
+    },
+    {
+      "id": "french-7d88fa35479d",
+      "course": "french",
+      "title": "LA NATURE",
+      "page": 377,
+      "level": "A2.2",
+      "code": "4"
+    },
+    {
+      "id": "french-d5f6ca87e705",
+      "course": "french",
+      "title": "L’HISTOIRE",
+      "page": 378,
+      "level": "A2.2",
+      "code": "5"
+    },
+    {
+      "id": "french-358982c6f7c0",
+      "course": "french",
+      "title": "LA SCIENCE ET LA TECHNOLOGIE",
+      "page": 379,
+      "level": "A2.2",
+      "code": "6"
+    },
+    {
+      "id": "arabic-75e3bbdf3a39",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 384,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.1",
+      "code": "A1.1.1"
+    },
+    {
+      "id": "arabic-1eaf93028829",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 384,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.1",
+      "code": "A1.1.1"
+    },
+    {
+      "id": "arabic-7e04a0239d85",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 384,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.1",
+      "code": "A1.1.1"
+    },
+    {
+      "id": "arabic-7cb2bd122bd5",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 384,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.1",
+      "code": "A1.1.1"
+    },
+    {
+      "id": "arabic-2736bfffb6a9",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 384,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.1",
+      "code": "A1.1.1"
+    },
+    {
+      "id": "arabic-db42bc49ad72",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 386,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.2",
+      "code": "A1.1.2"
+    },
+    {
+      "id": "arabic-1da6cb6ffd7e",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 386,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.2",
+      "code": "A1.1.2"
+    },
+    {
+      "id": "arabic-ed4ff566b350",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 386,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.2",
+      "code": "A1.1.2"
+    },
+    {
+      "id": "arabic-551461c2458b",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 386,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.2",
+      "code": "A1.1.2"
+    },
+    {
+      "id": "arabic-59f8c568b7b8",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 386,
+      "level": "Başlangıç A1 · 9. sınıf · A1.1.2",
+      "code": "A1.1.2"
+    },
+    {
+      "id": "arabic-7903e2bb207f",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 388,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.1",
+      "code": "A1.2.1"
+    },
+    {
+      "id": "arabic-dc55c89def2d",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 388,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.1",
+      "code": "A1.2.1"
+    },
+    {
+      "id": "arabic-96607bfa8caa",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 388,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.1",
+      "code": "A1.2.1"
+    },
+    {
+      "id": "arabic-d5565809f7dc",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 388,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.1",
+      "code": "A1.2.1"
+    },
+    {
+      "id": "arabic-8577735e19fc",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 388,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.1",
+      "code": "A1.2.1"
+    },
+    {
+      "id": "arabic-0189b8183a94",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 390,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.2",
+      "code": "A1.2.2"
+    },
+    {
+      "id": "arabic-2634f6f441c2",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 390,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.2",
+      "code": "A1.2.2"
+    },
+    {
+      "id": "arabic-3bc8632ab942",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 390,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.2",
+      "code": "A1.2.2"
+    },
+    {
+      "id": "arabic-c7c3f39223ce",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 390,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.2",
+      "code": "A1.2.2"
+    },
+    {
+      "id": "arabic-666c5c5a8ce9",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 390,
+      "level": "Başlangıç A1 · 9. sınıf · A1.2.2",
+      "code": "A1.2.2"
+    },
+    {
+      "id": "arabic-c2e12a117750",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 392,
+      "level": "Başlangıç A1 · 9. sınıf · Genel",
+      "code": "Genel"
+    },
+    {
+      "id": "arabic-2ee6e3010429",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 392,
+      "level": "Başlangıç A1 · 9. sınıf · Genel",
+      "code": "Genel"
+    },
+    {
+      "id": "arabic-456a0913d82b",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 392,
+      "level": "Başlangıç A1 · 9. sınıf · Genel",
+      "code": "Genel"
+    },
+    {
+      "id": "arabic-52f10bc15395",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 392,
+      "level": "Başlangıç A1 · 9. sınıf · Genel",
+      "code": "Genel"
+    },
+    {
+      "id": "arabic-2345665b3b0f",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 392,
+      "level": "Başlangıç A1 · 9. sınıf · Genel",
+      "code": "Genel"
+    },
+    {
+      "id": "arabic-b9a66f7b051d",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 394,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-7a7377273f23",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 394,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-a5827bbeca3f",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 394,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-ce0713a9d435",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 394,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-ea0f2b75584d",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 394,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-68a2e7816054",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 396,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-9bd737a983bd",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 396,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-59e5a3c19a27",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 396,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-a3d795005bf4",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 396,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-bab4cab6e929",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 396,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-6970df63f61e",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 398,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-6a1d12fa25e8",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 398,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-d541a2d98175",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 398,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-789391a4b412",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 398,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-cfaf7df1d03c",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 398,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-cda47bba630b",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 400,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-48664f4788bd",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 400,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-c416cba3982d",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 400,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-0a0ccb264980",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 400,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-7e7c3fa46832",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 400,
+      "level": "Başlangıç A1 · 10. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-4fd94f29a3db",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 402,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-69db1a057626",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 402,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-4a0df4c95bed",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 402,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-bc7a24b9a855",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 402,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-99b89fb6b4d1",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 402,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-3f99d2731474",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 404,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-79e9abd77af0",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 404,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-609b943ba60a",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 404,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-cc6035d1e072",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 404,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-6ff8b09cd33e",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 404,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-9991722b5099",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 406,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-7f60f2793d0c",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 406,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-c900e245d437",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 406,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-d372979e15ac",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 406,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-fd7da5236bc8",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 406,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-e3192b602ddd",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 408,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-59ce2efdf573",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 408,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-430d881ee5a2",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 408,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-4b4a52e78697",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 408,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-fe136e2cbd1b",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 408,
+      "level": "Başlangıç A1 · 11. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-491faabf952b",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 410,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-c26454dccdb9",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 410,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-539ccaed7dd4",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 410,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-50134e8dc46d",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 410,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-4ae02eed769b",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 410,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-fb12d3b71b90",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 412,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-22602ecc7863",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 412,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-667553f3dbba",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 412,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-f8c1959690e0",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 412,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-32d597e5a60d",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 412,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-115436c179a7",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 414,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-0ceecfb8b925",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 414,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-49364ba83a28",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 414,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-3a7a42163bcd",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 414,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-3e8b49884eda",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 414,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-89e048a82cf9",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 416,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-c803e3ac041c",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 416,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-343a2b01cf26",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 416,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-110c26f354f3",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 416,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-e5e5d6721733",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 416,
+      "level": "Başlangıç A1 · 12. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-2090ada7f53e",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 419,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-04b9ffe94c6c",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 419,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-aef59e4f3c1b",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 419,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-1b792b9203ae",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 419,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-b110e5a86889",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 419,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.1",
+      "code": "A2.1.1"
+    },
+    {
+      "id": "arabic-49461f603bc8",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 421,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-11eb374fd01d",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 421,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-41c6e60ab127",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 421,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-3ccf428daf57",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 421,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-c853f028618f",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 421,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.2",
+      "code": "A2.1.2"
+    },
+    {
+      "id": "arabic-6a7ce7798a65",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 423,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-c81e61404ae2",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 423,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-540eb0e637ce",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 423,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-78815aa95ea0",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 423,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-db73b9ce6cf3",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 423,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.3",
+      "code": "A2.1.3"
+    },
+    {
+      "id": "arabic-dfae6379a29e",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 425,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-3a49baa20137",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 425,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-d5b2d005d7eb",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 425,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-43c550628817",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 425,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-e392cf10c21f",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 425,
+      "level": "Başlangıç A2 · 9. sınıf · A2.1.4",
+      "code": "A2.1.4"
+    },
+    {
+      "id": "arabic-3b4773b2e47d",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 427,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-4c8160a98057",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 427,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-915ed68c5bf6",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 427,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-cf256bf634aa",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 427,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-c80aedb423d1",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 427,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.1",
+      "code": "A2.2.1"
+    },
+    {
+      "id": "arabic-3e5e5f7fe72c",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 429,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-6d6322cdf053",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 429,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-d31656a2b386",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 429,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-1e5ea0474ae3",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 429,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-935897118963",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 429,
+      "level": "Başlangıç A2 · 9. sınıf · A2.2.2",
+      "code": "A2.2.2"
+    },
+    {
+      "id": "arabic-88a90a587e8f",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 431,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-0c8e3e364bd6",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 431,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-2dc7ac31d434",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 431,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-8d6fe2b94c60",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 431,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-88ef6d1a3432",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 431,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.3",
+      "code": "A2.2.3"
+    },
+    {
+      "id": "arabic-be6a3ce8b651",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 433,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-6414c106e15f",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 433,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-e5a3db6fd88c",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 433,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-3903fb54bbdb",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 433,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-84216a02b414",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 433,
+      "level": "Başlangıç A2 · 10. sınıf · A2.2.4",
+      "code": "A2.2.4"
+    },
+    {
+      "id": "arabic-73a13a411418",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 435,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-dc4a3ffd28a1",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 435,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-3d4897b2afc5",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 435,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-3e7cc3873ec6",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 435,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-8d0ee38434ec",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 435,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.1",
+      "code": "A2.3.1"
+    },
+    {
+      "id": "arabic-4b1bfafcaae6",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 437,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-b4b511857dce",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 437,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-39a563577f02",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 437,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-b5c2afb53769",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 437,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-a4f79fc2c3fc",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 437,
+      "level": "Başlangıç A2 · 10. sınıf · A2.3.2",
+      "code": "A2.3.2"
+    },
+    {
+      "id": "arabic-1587c5640e8a",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 439,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-6fda4381e439",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 439,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-cfb789106674",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 439,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-901de122ccf2",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 439,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-0da365f11a8e",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 439,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.3",
+      "code": "A2.3.3"
+    },
+    {
+      "id": "arabic-5b0951dff8e9",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 441,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-2a82a39872cf",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 441,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-3f1ba999aa41",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 441,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-ce2698a12e0c",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 441,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-26c9e8a5bf8e",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 441,
+      "level": "Başlangıç A2 · 11. sınıf · A2.3.4",
+      "code": "A2.3.4"
+    },
+    {
+      "id": "arabic-f5fc16cd01b0",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 443,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-5c7b66342f75",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 443,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-fdc9c74afb57",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 443,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-61f18e1814d9",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 443,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-49944f071cb5",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 443,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-46c467e89614",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 445,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-d5841b5ed470",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 445,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-125136785c39",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 445,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-0b567e3623cd",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 445,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-690717292cce",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 445,
+      "level": "Başlangıç A2 · 11. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-42f830932d85",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 447,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-3855a9036798",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 447,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-04985d4a40ff",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 447,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-a4b853aabdcf",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 447,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-a2b05af387b0",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 447,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-f48b567f7240",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 449,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-d490ed6d0c3e",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 449,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-0fbc2f3cadc1",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 449,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-691ff06d05c5",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 449,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-c70e5e5ec2b2",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 449,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-8a19b7e9e141",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 451,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-7b4ae4ab24cb",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 451,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-c6b6083e3dbb",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 451,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-bbabbd191c74",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 451,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-c77de5efd855",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 451,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-d41c1e1780f6",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 453,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-4a983e2b8d0a",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 453,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-8fd757053aa0",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 453,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-8f30c0f537af",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 453,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-03e64418be6f",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 453,
+      "level": "Başlangıç A2 · 12. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-120b99bc7884",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 456,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-bd47eb05e581",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 456,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-51f55831b7c9",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 456,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-dd1dc9727054",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 456,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-834389ede343",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 456,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.1",
+      "code": "B1.1.1"
+    },
+    {
+      "id": "arabic-9f8e028cae3b",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 458,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-0826de8313ee",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 458,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-9bfe0fa1daf7",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 458,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-0a681363cddb",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 458,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-43877e5dcb7f",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 458,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.2",
+      "code": "B1.1.2"
+    },
+    {
+      "id": "arabic-0fb8d807ea7f",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 460,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-3fa1a46ff821",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 460,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-6c0198e23507",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 460,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-a863de65d32d",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 460,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-d3d0ccc368d2",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 460,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.3",
+      "code": "B1.1.3"
+    },
+    {
+      "id": "arabic-c9d67989041c",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 462,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-ade10fcdaaea",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 462,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-5dcbfbb6df0b",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 462,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-dcf88446ce6f",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 462,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-bba49c4a56b6",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 462,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.4",
+      "code": "B1.1.4"
+    },
+    {
+      "id": "arabic-dcfe6b645a9e",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 464,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-38bc2c3b713a",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 464,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-001266e3cd1e",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 464,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-f8a8fd1b3df2",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 464,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-31a059eb21a9",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 464,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.5",
+      "code": "B1.1.5"
+    },
+    {
+      "id": "arabic-1d236d54c888",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 466,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-7a55765a3cb9",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 466,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-9a4e2a19de01",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 466,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-1ee2c3886264",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 466,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-5e7265ccffe2",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 466,
+      "level": "Başlangıç B1 · 9. sınıf · B1.1.6",
+      "code": "B1.1.6"
+    },
+    {
+      "id": "arabic-fb909dd675b7",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 468,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.7",
+      "code": "B1.1.7"
+    },
+    {
+      "id": "arabic-4df614e2ce47",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 468,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.7",
+      "code": "B1.1.7"
+    },
+    {
+      "id": "arabic-b6e1c03a063d",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 468,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.7",
+      "code": "B1.1.7"
+    },
+    {
+      "id": "arabic-8b280adb5db2",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 468,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.7",
+      "code": "B1.1.7"
+    },
+    {
+      "id": "arabic-6b3d00ff4356",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 468,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.7",
+      "code": "B1.1.7"
+    },
+    {
+      "id": "arabic-dcdd1c5313e8",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 470,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.8",
+      "code": "B1.1.8"
+    },
+    {
+      "id": "arabic-2933e450db7d",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 470,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.8",
+      "code": "B1.1.8"
+    },
+    {
+      "id": "arabic-ec44f0dfc4cb",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 470,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.8",
+      "code": "B1.1.8"
+    },
+    {
+      "id": "arabic-cc443a6c1ed4",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 470,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.8",
+      "code": "B1.1.8"
+    },
+    {
+      "id": "arabic-4c440ec130be",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 470,
+      "level": "Başlangıç B1 · 10. sınıf · B1.1.8",
+      "code": "B1.1.8"
+    },
+    {
+      "id": "arabic-f91c9e446e6b",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 472,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.1",
+      "code": "B1.2.1"
+    },
+    {
+      "id": "arabic-002c781d90b6",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 472,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.1",
+      "code": "B1.2.1"
+    },
+    {
+      "id": "arabic-de20a4f9fc85",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 472,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.1",
+      "code": "B1.2.1"
+    },
+    {
+      "id": "arabic-c8e527031db6",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 472,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.1",
+      "code": "B1.2.1"
+    },
+    {
+      "id": "arabic-1dcccd62dd0e",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 472,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.1",
+      "code": "B1.2.1"
+    },
+    {
+      "id": "arabic-b172008484db",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 474,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.2",
+      "code": "B1.2.2"
+    },
+    {
+      "id": "arabic-14de7490f8f7",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 474,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.2",
+      "code": "B1.2.2"
+    },
+    {
+      "id": "arabic-885fe2ea205f",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 474,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.2",
+      "code": "B1.2.2"
+    },
+    {
+      "id": "arabic-8f996f26e6b5",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 474,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.2",
+      "code": "B1.2.2"
+    },
+    {
+      "id": "arabic-97051b6cf4a5",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 474,
+      "level": "Başlangıç B1 · 10. sınıf · B1.2.2",
+      "code": "B1.2.2"
+    },
+    {
+      "id": "arabic-db726b2c7af5",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 476,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.3",
+      "code": "B1.2.3"
+    },
+    {
+      "id": "arabic-b6a38223dda8",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 476,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.3",
+      "code": "B1.2.3"
+    },
+    {
+      "id": "arabic-109ed6c5da75",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 476,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.3",
+      "code": "B1.2.3"
+    },
+    {
+      "id": "arabic-55729c619de9",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 476,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.3",
+      "code": "B1.2.3"
+    },
+    {
+      "id": "arabic-29b3a16ee4a0",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 476,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.3",
+      "code": "B1.2.3"
+    },
+    {
+      "id": "arabic-5d1e5fc0de4d",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 478,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.4",
+      "code": "B1.2.4"
+    },
+    {
+      "id": "arabic-7b530af22d4e",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 478,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.4",
+      "code": "B1.2.4"
+    },
+    {
+      "id": "arabic-ca61e6bcd243",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 478,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.4",
+      "code": "B1.2.4"
+    },
+    {
+      "id": "arabic-bc75d7ae42bb",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 478,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.4",
+      "code": "B1.2.4"
+    },
+    {
+      "id": "arabic-4066e002b158",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 478,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.4",
+      "code": "B1.2.4"
+    },
+    {
+      "id": "arabic-a64614fef314",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 480,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.5",
+      "code": "B1.2.5"
+    },
+    {
+      "id": "arabic-bdeb48efc9bf",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 480,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.5",
+      "code": "B1.2.5"
+    },
+    {
+      "id": "arabic-55d41fbbed23",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 480,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.5",
+      "code": "B1.2.5"
+    },
+    {
+      "id": "arabic-3c8a24e10969",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 480,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.5",
+      "code": "B1.2.5"
+    },
+    {
+      "id": "arabic-e086c53d297a",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 480,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.5",
+      "code": "B1.2.5"
+    },
+    {
+      "id": "arabic-705a51656a61",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 482,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.6",
+      "code": "B1.2.6"
+    },
+    {
+      "id": "arabic-1b7a92ea6952",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 482,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.6",
+      "code": "B1.2.6"
+    },
+    {
+      "id": "arabic-0b73afbd6d8c",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 482,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.6",
+      "code": "B1.2.6"
+    },
+    {
+      "id": "arabic-94ea17b40ebc",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 482,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.6",
+      "code": "B1.2.6"
+    },
+    {
+      "id": "arabic-ec6c4b49f5cc",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 482,
+      "level": "Başlangıç B1 · 11. sınıf · B1.2.6",
+      "code": "B1.2.6"
+    },
+    {
+      "id": "arabic-ccb5b70ab370",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 484,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.7",
+      "code": "B1.2.7"
+    },
+    {
+      "id": "arabic-a240d397179c",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 484,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.7",
+      "code": "B1.2.7"
+    },
+    {
+      "id": "arabic-a07e344a214f",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 484,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.7",
+      "code": "B1.2.7"
+    },
+    {
+      "id": "arabic-4b4f96756f0c",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 484,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.7",
+      "code": "B1.2.7"
+    },
+    {
+      "id": "arabic-e74ab4831529",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 484,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.7",
+      "code": "B1.2.7"
+    },
+    {
+      "id": "arabic-cb2ce5bb6fbe",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 486,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.8",
+      "code": "B1.2.8"
+    },
+    {
+      "id": "arabic-7b70fb2af350",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 486,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.8",
+      "code": "B1.2.8"
+    },
+    {
+      "id": "arabic-7bc9b59782af",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 486,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.8",
+      "code": "B1.2.8"
+    },
+    {
+      "id": "arabic-4e7556216db9",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 486,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.8",
+      "code": "B1.2.8"
+    },
+    {
+      "id": "arabic-775144ac210d",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 486,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.8",
+      "code": "B1.2.8"
+    },
+    {
+      "id": "arabic-2a9de8f466f9",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 488,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.9",
+      "code": "B1.2.9"
+    },
+    {
+      "id": "arabic-bd6b1ee29283",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 488,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.9",
+      "code": "B1.2.9"
+    },
+    {
+      "id": "arabic-204690bd58e4",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 488,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.9",
+      "code": "B1.2.9"
+    },
+    {
+      "id": "arabic-293c77acc162",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 488,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.9",
+      "code": "B1.2.9"
+    },
+    {
+      "id": "arabic-11114bb8ec31",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 488,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.9",
+      "code": "B1.2.9"
+    },
+    {
+      "id": "arabic-fa007d46e6d7",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 490,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.10",
+      "code": "B1.2.10"
+    },
+    {
+      "id": "arabic-21a4efc35284",
+      "course": "arabic",
+      "title": "Karşılıklı konuşma",
+      "page": 490,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.10",
+      "code": "B1.2.10"
+    },
+    {
+      "id": "arabic-20681f413977",
+      "course": "arabic",
+      "title": "Sözlü anlatım",
+      "page": 490,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.10",
+      "code": "B1.2.10"
+    },
+    {
+      "id": "arabic-4cff743b8131",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 490,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.10",
+      "code": "B1.2.10"
+    },
+    {
+      "id": "arabic-89b1744927fa",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 490,
+      "level": "Başlangıç B1 · 12. sınıf · B1.2.10",
+      "code": "B1.2.10"
+    },
+    {
+      "id": "arabic-6a5e16af3ce2",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 493,
+      "level": "A1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-e442f3e0e8b3",
+      "course": "arabic",
+      "title": "Konuşma",
+      "page": 493,
+      "level": "A1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-30792acc092a",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 493,
+      "level": "A1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-da8daf4fa721",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 493,
+      "level": "A1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-5fde040be603",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 494,
+      "level": "A2 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-8a56814a564f",
+      "course": "arabic",
+      "title": "Konuşma",
+      "page": 494,
+      "level": "A2 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-4de7a1a46938",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 494,
+      "level": "A2 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-2b37699740e1",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 494,
+      "level": "A2 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-bccabcc99bb1",
+      "course": "arabic",
+      "title": "Dinleme",
+      "page": 495,
+      "level": "B1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-a018f055483b",
+      "course": "arabic",
+      "title": "Konuşma",
+      "page": 495,
+      "level": "B1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-27357e1efcd7",
+      "course": "arabic",
+      "title": "Okuma",
+      "page": 495,
+      "level": "B1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-7560d903b179",
+      "course": "arabic",
+      "title": "Yazma",
+      "page": 495,
+      "level": "B1 ortak",
+      "code": ""
+    },
+    {
+      "id": "arabic-27425fcc9ece",
+      "course": "arabic",
+      "title": "Ses bilgisi",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-066e47bcc8c0",
+      "course": "arabic",
+      "title": "Belirlilik-belirsizlik",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-f92a8f6bfe67",
+      "course": "arabic",
+      "title": "Erillik-dişillik",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-e9d0721d0052",
+      "course": "arabic",
+      "title": "Tonlama",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-4ed2761e60ec",
+      "course": "arabic",
+      "title": "İşaret zamirleri",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-ca2e476c1a23",
+      "course": "arabic",
+      "title": "Soru edatları",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-679d3e7ae59c",
+      "course": "arabic",
+      "title": "Evet-hayır soruları",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-27cc1419f66c",
+      "course": "arabic",
+      "title": "Kişi zamirleri (munfasıl zamirler)",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-a9e07bae4e9d",
+      "course": "arabic",
+      "title": "İyelik zamirleri (muttasıl zamirler)",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-54844c1bbf8a",
+      "course": "arabic",
+      "title": "İlgeçler (harf-i cerler)",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-9b9faeca24a3",
+      "course": "arabic",
+      "title": "Zaman zarfları",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-8c8012f6221b",
+      "course": "arabic",
+      "title": "Yer zarfları ve yer bildiren ifadeler",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-2cdda4fe3576",
+      "course": "arabic",
+      "title": "Miktar zarfları",
+      "page": 496,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-e551b8d6ea5f",
+      "course": "arabic",
+      "title": "Varlık-yokluk bildirme",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-1984af9a015c",
+      "course": "arabic",
+      "title": "Sıfatlar",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-6b2c235729e5",
+      "course": "arabic",
+      "title": "İsim cümlesi",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b680d0023485",
+      "course": "arabic",
+      "title": "İsim tamlaması",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-44dc9eca90b5",
+      "course": "arabic",
+      "title": "Sayılar",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-fa9129389ddf",
+      "course": "arabic",
+      "title": "Emir kipi",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-c6d2e290c4a5",
+      "course": "arabic",
+      "title": "Bağlaçlar",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-e131877e256f",
+      "course": "arabic",
+      "title": "Şimdiki zaman veya geniş zaman (mudari fiil)",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-0511e453e334",
+      "course": "arabic",
+      "title": "Düzenli ve düzensiz çoğullar",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-979f77e68dd8",
+      "course": "arabic",
+      "title": "İletişimsel ifadeler",
+      "page": 497,
+      "level": "A1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-0d05f91fb149",
+      "course": "arabic",
+      "title": "Ses bilgisi",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-efdd62b5fe64",
+      "course": "arabic",
+      "title": "Cümle bilgisi",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-f76cbb9d95ad",
+      "course": "arabic",
+      "title": "Kişi zamirleri (munfasıl zamirler)",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-d3e461a8f960",
+      "course": "arabic",
+      "title": "İyelik zamirleri (muttasıl zamirler)",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-5c7376e76b95",
+      "course": "arabic",
+      "title": "Sayılar",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-5dfe8a578190",
+      "course": "arabic",
+      "title": "Yer-yön zarfları",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b5404794cc3b",
+      "course": "arabic",
+      "title": "Emir kipi",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-49e11a0d96e7",
+      "course": "arabic",
+      "title": "Zaman zarfları",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-3793bfdf13cd",
+      "course": "arabic",
+      "title": "Mudari fiil",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-03e7f01f7b37",
+      "course": "arabic",
+      "title": "Gelecek zaman",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-0c68d75cdc04",
+      "course": "arabic",
+      "title": "Mâdi fiil",
+      "page": 497,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-6349d77ab2f3",
+      "course": "arabic",
+      "title": "Fiil cümlesi",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-a0f3c48529d9",
+      "course": "arabic",
+      "title": "Sıfat tamlaması",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-fb037c7af66a",
+      "course": "arabic",
+      "title": "Bağlaçlar",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-232b24b0a261",
+      "course": "arabic",
+      "title": "Düzenli ve düzensiz çoğullar",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-fa774ff3e678",
+      "course": "arabic",
+      "title": "İsm-i tafdil",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-45db461979fc",
+      "course": "arabic",
+      "title": "İletişimsel örüntüler",
+      "page": 498,
+      "level": "A2 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-15daeb8e5ad2",
+      "course": "arabic",
+      "title": "Ses bilgisi",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-f80639f08f7c",
+      "course": "arabic",
+      "title": "Yer-yön zarfları",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-ca3e4bc7a842",
+      "course": "arabic",
+      "title": "Zaman zarfları",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b11cad62bbdb",
+      "course": "arabic",
+      "title": "Sıfat tamlaması",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-257fbef10cdb",
+      "course": "arabic",
+      "title": "İsim tamlaması",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-ea1aaedaa49b",
+      "course": "arabic",
+      "title": "Karşılaştırma Yapıları",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-45401da3d82f",
+      "course": "arabic",
+      "title": "Mudari fiil",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-04d5d769bb9e",
+      "course": "arabic",
+      "title": "Gelecek zaman",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b7d009ae04ee",
+      "course": "arabic",
+      "title": "Emir kipi",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-ae26c5f83420",
+      "course": "arabic",
+      "title": "Mâdi fiil",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-a87b354d68a9",
+      "course": "arabic",
+      "title": "“Değil” Yapısı",
+      "page": 498,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-40495682c545",
+      "course": "arabic",
+      "title": "Mastarlar",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-09c78429dc1f",
+      "course": "arabic",
+      "title": "Bağlaçlar",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-9f1afd727ac0",
+      "course": "arabic",
+      "title": "Gereklilik",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-c4c0eecf3d05",
+      "course": "arabic",
+      "title": "Yeterlilik",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-39e903e746ad",
+      "course": "arabic",
+      "title": "Olabilirlik, ihtimal",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-db669c31d85f",
+      "course": "arabic",
+      "title": "Sayılar",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-d609ef27c69a",
+      "course": "arabic",
+      "title": "İletişimsel örüntüler",
+      "page": 499,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-018678c0d328",
+      "course": "arabic",
+      "title": "Geçmiş zamanı olumsuzlayan formlar",
+      "page": 500,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-9e3c22cd8b92",
+      "course": "arabic",
+      "title": "Cümlede vurgu veya kesinlik",
+      "page": 500,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b133f6a791f4",
+      "course": "arabic",
+      "title": "“Keşke” yapısı",
+      "page": 500,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "arabic-b73c37d42bac",
+      "course": "arabic",
+      "title": "Koşul bildirme",
+      "page": 500,
+      "level": "B1 · dil yapıları",
+      "code": ""
+    },
+    {
+      "id": "russian-b12d4f299c03",
+      "course": "russian",
+      "title": "Dinleme becerisi",
+      "page": 503,
+      "level": "9. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-7ab8aafe75f4",
+      "course": "russian",
+      "title": "Konuşma becerisi",
+      "page": 504,
+      "level": "9. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-a9e85a3cd786",
+      "course": "russian",
+      "title": "Okuma becerisi",
+      "page": 504,
+      "level": "9. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-fd0850708ba5",
+      "course": "russian",
+      "title": "Yazma becerisi",
+      "page": 505,
+      "level": "9. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-b49f77e19cb2",
+      "course": "russian",
+      "title": "Вводный урок",
+      "page": 506,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-ca02148d842e",
+      "course": "russian",
+      "title": "Человек и Знакомство",
+      "page": 506,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-744c11fda089",
+      "course": "russian",
+      "title": "СЕМЬЯ",
+      "page": 508,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-b16490fcdbc9",
+      "course": "russian",
+      "title": "Мой родной город",
+      "page": 510,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-aaa4a3d375c0",
+      "course": "russian",
+      "title": "Глаголы движения",
+      "page": 512,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-30a34cca003e",
+      "course": "russian",
+      "title": "Мой рабочий день",
+      "page": 513,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-8741e3bafe17",
+      "course": "russian",
+      "title": "Ваша деятельность",
+      "page": 515,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-b3d76e5f72b6",
+      "course": "russian",
+      "title": "Планы и желания",
+      "page": 517,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-ac2533b89572",
+      "course": "russian",
+      "title": "Дом",
+      "page": 518,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-2fa14ba960bd",
+      "course": "russian",
+      "title": "Приказы, просьбы и пожелания",
+      "page": 519,
+      "level": "9. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-b15108c8e63e",
+      "course": "russian",
+      "title": "Dinleme becerisi",
+      "page": 526,
+      "level": "10. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-3c683e8e2507",
+      "course": "russian",
+      "title": "Konuşma becerisi",
+      "page": 526,
+      "level": "10. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-b2a1327acedf",
+      "course": "russian",
+      "title": "Okuma becerisi",
+      "page": 527,
+      "level": "10. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-e2d6381eeb06",
+      "course": "russian",
+      "title": "Yazma becerisi",
+      "page": 527,
+      "level": "10. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-d09c3e192dda",
+      "course": "russian",
+      "title": "Еда",
+      "page": 528,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-6c23a403cdec",
+      "course": "russian",
+      "title": "В ресторане",
+      "page": 528,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-a298784b8efa",
+      "course": "russian",
+      "title": "Раньше и сейчас",
+      "page": 531,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-ce5e6fdbb445",
+      "course": "russian",
+      "title": "Детективный рассказ",
+      "page": 531,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-f7f6730eab06",
+      "course": "russian",
+      "title": "Известные люди",
+      "page": 532,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-eab5b3b253b0",
+      "course": "russian",
+      "title": "Здоровье",
+      "page": 536,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-8a205e260e85",
+      "course": "russian",
+      "title": "Спорт",
+      "page": 536,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-14710075e1cd",
+      "course": "russian",
+      "title": "Биография",
+      "page": 539,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-8ce33ee61749",
+      "course": "russian",
+      "title": "Климат",
+      "page": 539,
+      "level": "10. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-811abf61b9d1",
+      "course": "russian",
+      "title": "Dinleme becerisi",
+      "page": 544,
+      "level": "11. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-e8220f99d90d",
+      "course": "russian",
+      "title": "Konuşma becerisi",
+      "page": 544,
+      "level": "11. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-39f8f36e683e",
+      "course": "russian",
+      "title": "Okuma becerisi",
+      "page": 545,
+      "level": "11. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-f85641b62906",
+      "course": "russian",
+      "title": "Yazma becerisi",
+      "page": 545,
+      "level": "11. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-0c1543e4a901",
+      "course": "russian",
+      "title": "Культура",
+      "page": 546,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-1756fda22c08",
+      "course": "russian",
+      "title": "Искусство",
+      "page": 546,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-2d03a7c61776",
+      "course": "russian",
+      "title": "Кино",
+      "page": 547,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-b88b0bb1c8db",
+      "course": "russian",
+      "title": "Театр",
+      "page": 547,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-e53081c0d5e2",
+      "course": "russian",
+      "title": "Музыка и танец",
+      "page": 548,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-1e215f3f3341",
+      "course": "russian",
+      "title": "Досуг",
+      "page": 554,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-84b1872999a4",
+      "course": "russian",
+      "title": "В гостях",
+      "page": 554,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-66b422e5ebaf",
+      "course": "russian",
+      "title": "Новости",
+      "page": 555,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-34a54cff86fe",
+      "course": "russian",
+      "title": "Транспорт",
+      "page": 555,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-4e54ae1d92ff",
+      "course": "russian",
+      "title": "Гостиница",
+      "page": 556,
+      "level": "11. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-50f49abe4e0d",
+      "course": "russian",
+      "title": "Dinleme becerisi",
+      "page": 562,
+      "level": "12. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-e31379b80876",
+      "course": "russian",
+      "title": "Konuşma becerisi",
+      "page": 562,
+      "level": "12. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-92f9bc6f6069",
+      "course": "russian",
+      "title": "Okuma becerisi",
+      "page": 563,
+      "level": "12. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-7f7df02c24d2",
+      "course": "russian",
+      "title": "Yazma becerisi",
+      "page": 563,
+      "level": "12. sınıf · ortak beceriler",
+      "code": ""
+    },
+    {
+      "id": "russian-b77fbed5c0db",
+      "course": "russian",
+      "title": "Университеты",
+      "page": 564,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-1e4a57b7a99c",
+      "course": "russian",
+      "title": "Великие люди",
+      "page": 564,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-c0a5b66ddef2",
+      "course": "russian",
+      "title": "Страны и их культуры",
+      "page": 565,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-256bb26a43f8",
+      "course": "russian",
+      "title": "Всѐ о Турции",
+      "page": 565,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-2ca84d639d83",
+      "course": "russian",
+      "title": "Всѐ о России",
+      "page": 566,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-1e107ff26c02",
+      "course": "russian",
+      "title": "Флора и фауна",
+      "page": 572,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-c22434dbc41e",
+      "course": "russian",
+      "title": "Будущее нашей планеты",
+      "page": 573,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-ed01bba16f70",
+      "course": "russian",
+      "title": "Международные и национальные праздники",
+      "page": 574,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-7978a17b6370",
+      "course": "russian",
+      "title": "Чудеса света",
+      "page": 575,
+      "level": "12. sınıf",
+      "code": ""
+    },
+    {
+      "id": "russian-297b9a09c7c4",
+      "course": "russian",
+      "title": "Туризм как путь к познанию другой культуры",
+      "page": 576,
+      "level": "12. sınıf",
+      "code": ""
+    }
+  ]
+}

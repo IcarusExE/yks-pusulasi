@@ -86,3 +86,9 @@ test('concurrent moves of the same occurrence use one stable destination identit
  for(const [local,target] of [[baseA,'2026-11-23'],[baseB,'2026-11-24']]){local.tasks[0].skipped=['2026-11-22'];local.tasks.push({...task('moved@series@2026-11-22'),date:target,weekly:false,skipped:[]});}
  await write(a,baseA);await write(b,baseB);const saved=JSON.parse(await a.load());assert.equal(saved.tasks.length,2);assert.equal(saved.tasks[1].date,'2026-11-24');
 });
+
+test('editing a card in one window preserves review progress recorded by another',async()=>{
+ const initial=snapshot();initial.cards=[{id:'c',deck:'Fen',front:'Soru',back:'Cevap',due:'2026-11-22',interval:0}];const {a,b,baseA,baseB}=await setup(initial);
+ baseA.cards[0].due='2026-11-29';baseA.cards[0].interval=7;baseB.cards[0].deck='Biyoloji';baseB.cards[0].front='Yeni soru';await write(a,baseA);await write(b,baseB);
+ const card=JSON.parse(await a.load()).cards[0];assert.equal(card.interval,7);assert.equal(card.due,'2026-11-29');assert.equal(card.front,'Yeni soru');assert.equal(card.deck,'Biyoloji');
+});

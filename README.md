@@ -9,10 +9,12 @@ Rust + Leptos + WebAssembly ile hazırlanmış, verileri yalnızca tarayıcıdak
 - TYT + AYT; sayısal, eşit ağırlık, sözel ve dil alanları
 - Günlük çalışmalar, haftalık tekrar, tikleme ve düzenlenebilir haftalık program taslağı
 - Çalışmayı başka güne taşıma; haftalık seride yalnızca seçilen tekrarın taşınması
+- 2026 MEB/TTKB belgesindeki 18 dersin ünite/tema/alt konu kataloğu, arama ve konudan çalışma oluşturma
+- Haftalık çalışma/odak/soru hedefi özeti ve karşılaştırılabilir denemelerde net farkı
 - Dört renk paleti ve açık/koyu cam teması
 - Kronometre, 25 dakikalık Pomodoro ve odak geçmişi
 - TYT/AYT/YDT netleri ve deneme geçmişi
-- Deste bazlı hafıza kartları ve aralıklı tekrar
+- Deste bazlı hafıza kartları, tekrar takvimi korunarak kart düzenleme ve aralıklı tekrar
 - JSON yedekleme/geri yükleme, çevrimdışı PWA
 
 ## Geliştirme
@@ -42,9 +44,13 @@ PWA ilk çevrimiçi açılıştan ve service worker kurulumundan sonra çevrimd�
 
 Taşıma, tamamlanmamış çalışmalar için kullanılabilir. Haftalık bir görev taşındığında kaynak gün bir istisna olarak saklanır ve hedef güne tek seferlik bir çalışma eklenir; serinin diğer tekrarları ve tamamlanma geçmişi korunur. İki pencere aynı tekrarı aynı anda taşırsa tek hedef kayıt kullanılır; son kaydedilen hedef geçerli olur.
 
+## Resmî kapsam kataloğu
+
+Katalog 2026 MEB/TTKB belgesine dayanır; 2027 kapsamı olarak sunulmaz. 18 derste 867 ünite, tema, alt konu ve dil becerisi bloğu, kaynak PDF sayfasıyla gösterilir. Tüm kazanım açıklamalarının yerine geçmez. Liste ve arama WASM içine gömülüdür; kaynak PDF için internet gerekir. TYT/AYT ders etiketi, öğrencinin planlama tercihidir. Ayrıntılı kaynak ve üretim yöntemi [docs/curriculum-index.md](docs/curriculum-index.md) dosyasındadır.
+
 ## Mimari ve sonraki adımlar
 
-`src/model.rs`: Rust veri modelleri, doğrulama ve hesaplama kuralları. `src/main.rs`: Leptos arayüzü. `src/platform.rs`: tipli tarayıcı köprüsü. `public/storage.js`: IndexedDB, tarih, yedek ve PWA tarayıcı köprüsü. `public/style.css`: tema değişkenleri ve responsive görünüm. Rust durumu yerel depolama köprüsünden ayrılmıştır; Cloudflare Workers + D1 geçişinde kimlik, sürüm geçişleri ve çakışma çözümü içeren ayrı senkronizasyon katmanı eklenmelidir.
+`src/model.rs`: Rust veri modelleri, doğrulama ve hesaplama kuralları. `src/main.rs`: ana Leptos arayüzü. `src/components/`: konu kataloğu, kart düzenleyici ve haftalık özet. `src/curriculum.rs` / `data/curriculum-2026.json`: doğrulanmış kaynak indeksi. `src/platform.rs`: tipli tarayıcı köprüsü. `public/storage.js`: IndexedDB, tarih, yedek ve PWA tarayıcı köprüsü. `public/style.css`: tema değişkenleri ve responsive görünüm. Rust durumu yerel depolama köprüsünden ayrılmıştır; Cloudflare Workers + D1 geçişinde kimlik, sürüm geçişleri ve çakışma çözümü içeren ayrı senkronizasyon katmanı eklenmelidir.
 
 Yapay zekâ planlama bu sürümde etkin değildir. Gelecekte API anahtarını tarayıcıya koymadan Workers üzerinden sunulabilir. Ücretli üyelik/ödeme bulunmaz; “premium” görsel kaliteyi ifade eder.
 

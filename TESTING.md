@@ -1,4 +1,4 @@
-# Doğrulama — 0.1.2
+# Doğrulama — 0.2.0
 
 ## Otomatik kontroller
 
@@ -29,3 +29,9 @@ Tarayıcı aracı `the gaas-browser node_repl sandbox cannot be disabled` hatas�
 Otomatik: tek seferlik ve haftalık çalışma taşıma, tamamlanan çalışmada işlemi reddetme, geçersiz/same-date taşımanın veriyi değiştirmemesi, eski şemada istisna alanının varsayılanı, farklı ve aynı tekrarların pencereler arasında eşzamanlı taşınması.
 
 Gerçek tarayıcıda taşıma penceresinin klavye ve telefon kullanımı hâlâ bekliyor.
+
+## 0.2.0 ek kontroller
+
+Otomatik: katalogdaki 18 dersin bütünlüğü ve kaynak sayfa aralıkları; benzersiz başlık kimlikleri; temel düzey matematik ve analiz konu kodları; Türkçe arama; kart düzenlemede tekrar tarihinin korunması; silinmiş/geçersiz kartı reddetme; boş hafta; taşınmış tekrarların haftalık sayımı; tarih ve test yapısına göre net karşılaştırması; diğer pencerenin kart tekrar ilerlemesinin düzenleme sırasında korunması.
+
+Gerçek tarayıcıda bekleyenler: katalog filtreleri ve sayfalama, konudan taslak oluşturup değiştirme, yeni boş çalışmanın önceki taslağı kullanmaması, kart düzenleme penceresi, haftalık gezinme ve dar ekranlardaki tablo/grafik görünümü. Tarayıcı kısıtı nedeniyle bu maddeler doğrulanmış sayılmıyor.

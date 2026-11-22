@@ -1,6 +1,6 @@
 const SCOPE = new URL('./', self.location);
 const PREFIX = `yks-pusulasi:${SCOPE.pathname}:`;
-const CACHE = `${PREFIX}v3`;
+const CACHE = `${PREFIX}v4`;
 function inScope(url) {
   return url.origin === SCOPE.origin && url.pathname.startsWith(SCOPE.pathname);
 }

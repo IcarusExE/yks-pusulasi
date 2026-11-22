@@ -13,7 +13,7 @@ pub struct Task {
     #[serde(default)]
     pub skipped: Vec<String>,
 }
-#[derive(Clone, Serialize, Deserialize, Debug)]
+#[derive(Clone, Serialize, Deserialize, Debug, PartialEq)]
 pub struct Card {
     pub id: String,
     pub deck: String,
@@ -147,6 +147,102 @@ fn weekday_index(date: &str) -> u32 {
         y -= 1;
     }
     (y + y / 4 - y / 100 + y / 400 + offsets[(m - 1) as usize] + d) % 7
+}
+pub fn edit_card(
+    cards: &mut [Card],
+    card_id: &str,
+    deck: &str,
+    front: &str,
+    back: &str,
+) -> Result<(), &'static str> {
+    let (deck, front, back) = (deck.trim(), front.trim(), back.trim());
+    if deck.is_empty() || front.is_empty() || back.is_empty() {
+        return Err("Deste, soru ve cevap boş olamaz.");
+    }
+    if deck.chars().count() > 80 || front.chars().count() > 2000 || back.chars().count() > 4000 {
+        return Err("Kart metni izin verilen uzunluğu aşıyor.");
+    }
+    let card = cards
+        .iter_mut()
+        .find(|c| c.id == card_id)
+        .ok_or("Bu kart başka bir pencerede silinmiş.")?;
+    card.deck = deck.into();
+    card.front = front.into();
+    card.back = back.into();
+    Ok(())
+}
+#[derive(Default, Clone, Debug)]
+pub struct SubjectSummary {
+    pub planned: u32,
+    pub completed: u32,
+    pub focus_seconds: u64,
+}
+#[derive(Default, Clone, Debug)]
+pub struct WeekSummary {
+    pub planned: u32,
+    pub completed: u32,
+    pub questions: u64,
+    pub focus_seconds: u64,
+    pub subjects: std::collections::BTreeMap<String, SubjectSummary>,
+}
+pub fn summarize_week(state: &State, days: &[String]) -> WeekSummary {
+    let mut result = WeekSummary::default();
+    for day in days {
+        for task in &state.tasks {
+            if occurs(task, day) {
+                result.planned += 1;
+                let subject = result.subjects.entry(task.subject.clone()).or_default();
+                subject.planned += 1;
+                if task.done.contains(day) {
+                    result.completed += 1;
+                    subject.completed += 1;
+                    result.questions += task.questions as u64;
+                }
+            }
+        }
+    }
+    for session in &state.sessions {
+        if days.contains(&session.date) {
+            result.focus_seconds += session.seconds as u64;
+            result
+                .subjects
+                .entry(session.subject.clone())
+                .or_default()
+                .focus_seconds += session.seconds as u64;
+        }
+    }
+    result
+}
+pub fn exam_trend(state: &State, kind: &str, start: &str, end: &str) -> Option<(f64, Option<f64>)> {
+    let mut exams = state
+        .exams
+        .iter()
+        .enumerate()
+        .filter(|(_, exam)| exam.kind == kind && exam.date.as_str() <= end)
+        .collect::<Vec<_>>();
+    exams.sort_by_key(|(i, e)| (&e.date, *i));
+    let (_, latest) = exams.pop()?;
+    if latest.date.as_str() < start {
+        return None;
+    }
+    let total = |e: &Exam| e.rows.iter().map(|(_, c, w, _)| net(*c, *w)).sum::<f64>();
+    let signature = |e: &Exam| {
+        let mut rows = e
+            .rows
+            .iter()
+            .map(|(name, _, _, max)| (name.clone(), *max))
+            .collect::<Vec<_>>();
+        rows.sort();
+        rows
+    };
+    let previous = exams
+        .into_iter()
+        .rev()
+        .find(|(_, e)| signature(e) == signature(latest));
+    Some((
+        total(latest),
+        previous.map(|(_, e)| total(latest) - total(e)),
+    ))
 }
 pub fn net(correct: u32, wrong: u32) -> f64 {
     correct as f64 - wrong as f64 / 4.
@@ -309,6 +405,105 @@ mod tests {
             done: vec![],
             skipped: vec![],
         }
+    }
+    #[test]
+    fn empty_week_has_no_fabricated_progress_or_exam_score() {
+        let state = State::default();
+        let s = summarize_week(&state, &["2026-11-23".into()]);
+        assert_eq!(
+            (s.planned, s.completed, s.questions, s.focus_seconds),
+            (0, 0, 0, 0)
+        );
+        assert!(s.subjects.is_empty());
+        assert_eq!(exam_trend(&state, "TYT", "2026-11-23", "2026-11-29"), None);
+    }
+    #[test]
+    fn editing_card_preserves_schedule_and_rejects_invalid_or_deleted_cards() {
+        let original = Card {
+            id: "card".into(),
+            deck: "Fen".into(),
+            front: "Soru".into(),
+            back: "Cevap".into(),
+            due: "2026-12-10".into(),
+            interval: 14,
+        };
+        let mut cards = vec![original.clone()];
+        edit_card(
+            &mut cards,
+            "card",
+            "  Biyoloji ",
+            " Yeni soru ",
+            " Yeni cevap ",
+        )
+        .unwrap();
+        assert_eq!(cards[0].deck, "Biyoloji");
+        assert_eq!(cards[0].due, original.due);
+        assert_eq!(cards[0].interval, 14);
+        assert_eq!(cards[0].id, "card");
+        let before = cards.clone();
+        assert!(edit_card(&mut cards, "card", "", "Soru", "Cevap").is_err());
+        assert!(edit_card(&mut cards, "card", "Fen", &"x".repeat(2001), "Cevap").is_err());
+        assert!(edit_card(&mut cards, "deleted", "Fen", "Soru", "Cevap").is_err());
+        assert_eq!(cards, before);
+    }
+    #[test]
+    fn weekly_summary_counts_occurrences_goals_and_only_logged_time_in_window() {
+        let mut state = State::default();
+        let mut task = study(true);
+        task.done = vec!["2026-11-23".into(), "2026-11-30".into()];
+        state.tasks.push(task);
+        state.sessions = vec![
+            Session {
+                id: "a".into(),
+                date: "2026-11-23".into(),
+                subject: "TYT Matematik".into(),
+                seconds: 120,
+            },
+            Session {
+                id: "b".into(),
+                date: "2026-11-30".into(),
+                subject: "TYT Matematik".into(),
+                seconds: 999,
+            },
+        ];
+        let days = (23..=29)
+            .map(|d| format!("2026-11-{d}"))
+            .collect::<Vec<_>>();
+        let s = summarize_week(&state, &days);
+        assert_eq!(
+            (s.planned, s.completed, s.questions, s.focus_seconds),
+            (1, 1, 20, 120)
+        );
+        assert_eq!(s.subjects["TYT Matematik"].completed, 1);
+        state.tasks[0].done.retain(|d| d != "2026-11-30");
+        move_task(&mut state.tasks, "task", "2026-11-30", "2026-12-01").unwrap();
+        let s = summarize_week(&state, &["2026-11-30".into(), "2026-12-01".into()]);
+        assert_eq!((s.planned, s.completed), (1, 0));
+    }
+    #[test]
+    fn net_trend_excludes_future_dates_and_incompatible_exam_structures() {
+        let make = |id: &str, date: &str, name: &str, correct: u32| Exam {
+            id: id.into(),
+            date: date.into(),
+            kind: "TYT".into(),
+            rows: vec![(name.into(), correct, 0, 40)],
+        };
+        let mut s = State::default();
+        s.exams = vec![
+            make("latest", "2026-11-25", "Türkçe", 35),
+            make("future", "2026-12-01", "Türkçe", 40),
+            make("old", "2026-11-20", "Türkçe", 30),
+            make("different", "2026-11-24", "Matematik", 10),
+        ];
+        assert_eq!(
+            exam_trend(&s, "TYT", "2026-11-23", "2026-11-29"),
+            Some((35., Some(5.)))
+        );
+        assert_eq!(
+            exam_trend(&s, "AYT / YDT", "2026-11-23", "2026-11-29"),
+            None
+        );
+        assert_eq!(exam_trend(&s, "TYT", "2026-12-07", "2026-12-13"), None);
     }
     #[test]
     fn changing_schedule_does_not_hide_completed_history() {
