@@ -16,7 +16,7 @@
 - [x] GitHub Pages için test/derleme/dağıtım iş akışı
 - [x] Hesaplama, tarih/tekrar, zaman, kayıt sırası ve çevrimdışı erişim testleri
 - [ ] Gerçek tarayıcıda mobil/masaüstü akış ve görünüm doğrulaması — araç ortam hatası nedeniyle bekliyor
-- [ ] GitHub deposu ve Pages yayını — bağlı entegrasyon depo oluşturma yetkisi vermiyor
+- [x] GitHub deposu ve Pages yayını — https://icarusexe.github.io/yks-pusulasi/
 
 ## Sonraki sürümler
 

@@ -1,5 +1,7 @@
 # YKS Pusulası
 
+Canlı site: https://icarusexe.github.io/yks-pusulasi/
+
 Rust + Leptos + WebAssembly ile hazırlanmış, verileri yalnızca tarayıcıdaki IndexedDB'de saklayan YKS çalışma alanı. Sunucu veya harici yapay zekâ servisi kullanmaz.
 
 ## Özellikler
