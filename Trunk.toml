@@ -1,0 +1,4 @@
+[build]
+public_url = "./"
+[watch]
+ignore = ["dist", "target"]
