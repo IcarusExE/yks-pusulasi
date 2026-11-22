@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Clone, Serialize, Deserialize, Debug)]
+#[derive(Clone, Serialize, Deserialize, Debug, PartialEq)]
 pub struct Task {
     pub id: String,
     pub title: String,
@@ -22,12 +22,16 @@ pub struct Card {
 }
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Exam {
+    #[serde(default)]
+    pub id: String,
     pub date: String,
     pub kind: String,
     pub rows: Vec<(String, u32, u32, u32)>,
 }
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Session {
+    #[serde(default)]
+    pub id: String,
     pub date: String,
     pub subject: String,
     pub seconds: u32,
@@ -81,8 +85,12 @@ impl Default for State {
     }
 }
 pub fn occurs(t: &Task, date: &str) -> bool {
-    t.date == date
-        || (t.weekly && date >= t.date.as_str() && weekday_index(&t.date) == weekday_index(date))
+    valid_date(&t.date)
+        && valid_date(date)
+        && (t.date == date
+            || (t.weekly
+                && date >= t.date.as_str()
+                && weekday_index(&t.date) == weekday_index(date)))
 }
 fn weekday_index(date: &str) -> u32 {
     let mut y = date[0..4].parse::<u32>().unwrap();
@@ -202,6 +210,8 @@ pub fn valid(s: &State) -> bool {
         && s.sessions.iter().all(|s| valid_date(&s.date))
         && unique_ids(s.tasks.iter().map(|t| t.id.as_str()))
         && unique_ids(s.cards.iter().map(|c| c.id.as_str()))
+        && unique_ids(s.exams.iter().map(|e| e.id.as_str()))
+        && unique_ids(s.sessions.iter().map(|s| s.id.as_str()))
 }
 pub fn unique_ids<'a>(ids: impl Iterator<Item = &'a str>) -> bool {
     let mut seen = std::collections::HashSet::new();
@@ -256,6 +266,9 @@ mod tests {
         assert!(occurs(&t, "2026-12-28"));
         assert!(occurs(&t, "2027-01-04"));
         assert!(!occurs(&t, "2027-01-05"));
+        assert!(!occurs(&t, ""));
+        assert!(!occurs(&t, "99999-01-01"));
+        assert!(!occurs(&t, "2027-02-31"));
     }
     #[test]
     fn timer_accounts_for_background_time_and_pause() {

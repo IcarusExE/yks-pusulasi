@@ -18,6 +18,15 @@
 - [ ] Gerçek tarayıcıda mobil/masaüstü akış ve görünüm doğrulaması — araç ortam hatası nedeniyle bekliyor
 - [x] GitHub deposu ve Pages yayını — https://icarusexe.github.io/yks-pusulasi/
 
+## 0.1.1 — Kayıt ve PWA güvenilirliği
+
+- [x] Pencereler arasında alan bazlı canlı eşitleme ve çakışma kuralları
+- [x] Eski deneme/oturum kayıtlarına geriye uyumlu kimlikler
+- [x] Hatalı kayıtların ham yedeğini indirebilme
+- [x] Tarih girişlerinde doğrulama ve haftalık görevlerde geçersiz tarihe karşı koruma
+- [x] Uygulama yoluna özel PWA cache ve diğer uygulamaların cache kayıtlarını koruma
+- [x] Çoklu istemci, eşzamanlı düzenleme/silme, kayıt hatası ve offline regresyon testleri
+
 ## Sonraki sürümler
 
 1. Öğrenciden geri bildirim, konu bazlı plan şablonları ve kart düzenleme.

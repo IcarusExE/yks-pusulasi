@@ -24,7 +24,8 @@ trunk serve --address 0.0.0.0
 
 ```sh
 cargo test --locked
-node --test tests/*.test.mjs
+npm ci --ignore-scripts
+npm test
 trunk build --release --public-url /yks-pusulasi/
 ```
 
@@ -34,9 +35,9 @@ Depo **Settings → Pages → Source → GitHub Actions** olarak ayarlanmalıdı
 
 ## Veri ve yedekler
 
-Şema sürümü 1. Ana durum tek IndexedDB işlemiyle yazılır; yazımlar sıraya alınır. Açılışta okuma veya doğrulama başarısızsa kayıtlar üzerine yazılmaz. Ayarlardan JSON yedek alın; tarayıcı depolamasının temizlenmesi, gizli oturumun kapanması veya site adresinin değişmesi verileri erişilemez hale getirebilir. Cihazlar arasında aktarım yedek dosyasıyla yapılır. Aynı anda bir sekmede kullanın: çok sekmeli birleştirme bu sürümde yoktur.
+Şema sürümü 1. 0.1.1 sürümü eski deneme ve odak kayıtlarına geriye uyumlu, kararlı kimlikler ekler. Ana durum tek IndexedDB işlemiyle yazılır; yazımlar sıraya alınır. Açılışta okuma veya doğrulama başarısızsa kayıtlar üzerine yazılmaz. Ayarlardan JSON yedek alın; tarayıcı depolamasının temizlenmesi, gizli oturumun kapanması veya site adresinin değişmesi verileri erişilemez hale getirebilir. Cihazlar arasında aktarım yedek dosyasıyla yapılır. Aynı tarayıcı profili içindeki pencereler BroadcastChannel üzerinden canlı eşitlenir. IndexedDB işlemi, son kaydı okuyup alan bazında birleştirerek yazar. Farklı kayıtlar ve farklı görev tamamlama tarihleri korunur; aynı alanın çakışmasında son kaydedilen değer, silme/düzenleme çakışmasında silme geçerlidir. BroadcastChannel olmayan tarayıcılarda pencereye yeniden odaklanıldığında kayıtlar okunur. Farklı cihazlar veya tarayıcı profilleri arasında sunucu üzerinden eşitleme yoktur.
 
-PWA ilk çevrimiçi açılıştan ve service worker kurulumundan sonra çevrimdışı çalışır. Güncelleme, eski sürümün tüm sekmeleri kapandıktan sonra etkinleşir. Her sürümde `public/sw.js` içindeki cache adını artırın.
+PWA ilk çevrimiçi açılıştan ve service worker kurulumundan sonra çevrimdışı çalışır. Güncelleme, eski sürümün tüm sekmeleri kapandıktan sonra etkinleşir. Her sürümde `public/sw.js` içindeki cache sürümünü artırın. Cache adları uygulama yoluyla sınırlandırılır; başka uygulamaların cache kayıtlarına dokunulmaz.
 
 ## Mimari ve sonraki adımlar
 

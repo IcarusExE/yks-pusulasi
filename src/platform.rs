@@ -4,8 +4,15 @@ use wasm_bindgen::prelude::*;
 extern "C" {
     #[wasm_bindgen(catch)]
     pub async fn load() -> Result<JsValue, JsValue>;
+    #[wasm_bindgen(catch, js_name=rawBackup)]
+    pub async fn raw_backup() -> Result<JsValue, JsValue>;
     #[wasm_bindgen(catch)]
     pub async fn save(value: &str) -> Result<JsValue, JsValue>;
+    #[wasm_bindgen(js_name=acceptSnapshot)]
+    pub fn accept_snapshot(raw: &str);
+    #[wasm_bindgen(js_name=replaceNext)]
+    pub fn replace_next();
+    pub fn subscribe(callback: &js_sys::Function);
     pub fn today(offset: i32) -> String;
     #[wasm_bindgen(js_name=shiftDate)]
     pub fn shift_date(key: &str, offset: i32) -> String;
