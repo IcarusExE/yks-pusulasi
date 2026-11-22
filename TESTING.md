@@ -1,4 +1,4 @@
-# Doğrulama — 0.1.1
+# Doğrulama — 0.1.2
 
 ## Otomatik kontroller
 
@@ -23,3 +23,9 @@ Tarayıcı aracı `the gaas-browser node_repl sandbox cannot be disabled` hatas�
 - [ ] Kurulu PWA'yı internet kapalıyken açıp görev işaretleme.
 - [ ] PWA güncellemesi: eski sürümün tüm pencerelerini kapatıp yeni sürümü açma.
 - [ ] Klavyeyle modal açma, Tab / Shift+Tab sınırı, Escape ile kapatma.
+
+## 0.1.2 ek kontroller
+
+Otomatik: tek seferlik ve haftalık çalışma taşıma, tamamlanan çalışmada işlemi reddetme, geçersiz/same-date taşımanın veriyi değiştirmemesi, eski şemada istisna alanının varsayılanı, farklı ve aynı tekrarların pencereler arasında eşzamanlı taşınması.
+
+Gerçek tarayıcıda taşıma penceresinin klavye ve telefon kullanımı hâlâ bekliyor.

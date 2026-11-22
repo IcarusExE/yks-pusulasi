@@ -75,3 +75,14 @@ test('fresh windows merge their first additions and default initialization does 
  const first=snapshot();first.tasks.push(task('first'));first.name='Ada';await write(a,first);await write(b,snapshot());
  const saved=JSON.parse(await b.load());assert.equal(saved.tasks[0].id,'first');assert.equal(saved.name,'Ada');
 });
+
+test('moving two different weekly occurrences preserves both exceptions and destinations',async()=>{
+ const initial=snapshot();initial.tasks=[{...task('series'),skipped:[]}];const {a,b,baseA,baseB}=await setup(initial);
+ for(const [local,day,target] of [[baseA,'2026-11-22','2026-11-23'],[baseB,'2026-11-29','2026-11-30']]){local.tasks[0].skipped=[day];local.tasks.push({...task(`moved@series@${day}`),date:target,weekly:false,skipped:[]});}
+ await Promise.all([write(a,baseA),write(b,baseB)]);const saved=JSON.parse(await a.load());assert.equal(saved.tasks.length,3);assert.deepEqual(saved.tasks[0].skipped,['2026-11-22','2026-11-29']);
+});
+test('concurrent moves of the same occurrence use one stable destination identity',async()=>{
+ const initial=snapshot();initial.tasks=[{...task('series'),skipped:[]}];const {a,b,baseA,baseB}=await setup(initial);
+ for(const [local,target] of [[baseA,'2026-11-23'],[baseB,'2026-11-24']]){local.tasks[0].skipped=['2026-11-22'];local.tasks.push({...task('moved@series@2026-11-22'),date:target,weekly:false,skipped:[]});}
+ await write(a,baseA);await write(b,baseB);const saved=JSON.parse(await a.load());assert.equal(saved.tasks.length,2);assert.equal(saved.tasks[1].date,'2026-11-24');
+});

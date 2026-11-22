@@ -27,6 +27,14 @@
 - [x] Uygulama yoluna özel PWA cache ve diğer uygulamaların cache kayıtlarını koruma
 - [x] Çoklu istemci, eşzamanlı düzenleme/silme, kayıt hatası ve offline regresyon testleri
 
+## 0.1.2 — Çalışmayı başka güne taşıma
+
+- [x] Tek seferlik çalışmanın gününü değiştirme
+- [x] Haftalık serinin yalnızca seçilen tekrarını taşıma
+- [x] Tamamlanmış geçmişi koruma ve çift taşımayı engelleme
+- [x] Birden fazla penceredeki taşıma işlemlerini birleştirme
+- [ ] Tam konu listesi — resmî 2026 belgesi doğrulandı; kaynak yılı tercihi ve metin doğrulaması bekliyor (docs/curriculum-research.md)
+
 ## Sonraki sürümler
 
 1. Öğrenciden geri bildirim, konu bazlı plan şablonları ve kart düzenleme.

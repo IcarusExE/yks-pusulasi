@@ -8,6 +8,7 @@ Rust + Leptos + WebAssembly ile hazırlanmış, verileri yalnızca tarayıcıdak
 
 - TYT + AYT; sayısal, eşit ağırlık, sözel ve dil alanları
 - Günlük çalışmalar, haftalık tekrar, tikleme ve düzenlenebilir haftalık program taslağı
+- Çalışmayı başka güne taşıma; haftalık seride yalnızca seçilen tekrarın taşınması
 - Dört renk paleti ve açık/koyu cam teması
 - Kronometre, 25 dakikalık Pomodoro ve odak geçmişi
 - TYT/AYT/YDT netleri ve deneme geçmişi
@@ -38,6 +39,8 @@ Depo **Settings → Pages → Source → GitHub Actions** olarak ayarlanmalıdı
 Şema sürümü 1. 0.1.1 sürümü eski deneme ve odak kayıtlarına geriye uyumlu, kararlı kimlikler ekler. Ana durum tek IndexedDB işlemiyle yazılır; yazımlar sıraya alınır. Açılışta okuma veya doğrulama başarısızsa kayıtlar üzerine yazılmaz. Ayarlardan JSON yedek alın; tarayıcı depolamasının temizlenmesi, gizli oturumun kapanması veya site adresinin değişmesi verileri erişilemez hale getirebilir. Cihazlar arasında aktarım yedek dosyasıyla yapılır. Aynı tarayıcı profili içindeki pencereler BroadcastChannel üzerinden canlı eşitlenir. IndexedDB işlemi, son kaydı okuyup alan bazında birleştirerek yazar. Farklı kayıtlar ve farklı görev tamamlama tarihleri korunur; aynı alanın çakışmasında son kaydedilen değer, silme/düzenleme çakışmasında silme geçerlidir. BroadcastChannel olmayan tarayıcılarda pencereye yeniden odaklanıldığında kayıtlar okunur. Farklı cihazlar veya tarayıcı profilleri arasında sunucu üzerinden eşitleme yoktur.
 
 PWA ilk çevrimiçi açılıştan ve service worker kurulumundan sonra çevrimdışı çalışır. Güncelleme, eski sürümün tüm sekmeleri kapandıktan sonra etkinleşir. Her sürümde `public/sw.js` içindeki cache sürümünü artırın. Cache adları uygulama yoluyla sınırlandırılır; başka uygulamaların cache kayıtlarına dokunulmaz.
+
+Taşıma, tamamlanmamış çalışmalar için kullanılabilir. Haftalık bir görev taşındığında kaynak gün bir istisna olarak saklanır ve hedef güne tek seferlik bir çalışma eklenir; serinin diğer tekrarları ve tamamlanma geçmişi korunur. İki pencere aynı tekrarı aynı anda taşırsa tek hedef kayıt kullanılır; son kaydedilen hedef geçerli olur.
 
 ## Mimari ve sonraki adımlar
 

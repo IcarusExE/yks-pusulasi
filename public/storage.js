@@ -46,7 +46,7 @@ function mergeSet(base, local, remote) {
 function mergeEntity(base, local, remote, kind) {
   const result = structuredClone(remote);
   for (const key of Object.keys(local)) {
-    if (kind === 'tasks' && key === 'done') result.done = mergeSet(base.done || [], local.done || [], remote.done || []);
+    if (kind === 'tasks' && (key === 'done' || key === 'skipped')) result[key] = mergeSet(base[key] || [], local[key] || [], remote[key] || []);
     else if (!equal(base[key], local[key])) result[key] = structuredClone(local[key]);
   }
   return result;

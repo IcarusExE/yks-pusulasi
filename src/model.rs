@@ -10,6 +10,8 @@ pub struct Task {
     pub questions: u32,
     pub weekly: bool,
     pub done: Vec<String>,
+    #[serde(default)]
+    pub skipped: Vec<String>,
 }
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Card {
@@ -87,10 +89,54 @@ impl Default for State {
 pub fn occurs(t: &Task, date: &str) -> bool {
     valid_date(&t.date)
         && valid_date(date)
-        && (t.date == date
-            || (t.weekly
-                && date >= t.date.as_str()
-                && weekday_index(&t.date) == weekday_index(date)))
+        && (t.done.iter().any(|day| day == date)
+            || (!t.skipped.iter().any(|day| day == date)
+                && (t.date == date
+                    || (t.weekly
+                        && date >= t.date.as_str()
+                        && weekday_index(&t.date) == weekday_index(date)))))
+}
+/// Move one unfinished occurrence. Weekly recurrence and completion history stay intact.
+pub fn move_task(
+    tasks: &mut Vec<Task>,
+    task_id: &str,
+    from: &str,
+    to: &str,
+) -> Result<(), &'static str> {
+    if !valid_date(from) || !valid_date(to) {
+        return Err("Geçerli bir tarih seç.");
+    }
+    if from == to {
+        return Err("Farklı bir gün seç.");
+    }
+    let index = tasks
+        .iter()
+        .position(|task| task.id == task_id)
+        .ok_or("Çalışma artık mevcut değil.")?;
+    let source = &tasks[index];
+    if !occurs(source, from) {
+        return Err("Bu gün için taşınabilecek çalışma kalmadı.");
+    }
+    if source.done.iter().any(|day| day == from) {
+        return Err("Tamamlanan çalışma taşınamaz.");
+    }
+    if source.weekly {
+        let new_id = format!("moved@{}@{}", source.id, from);
+        if new_id.is_empty() || tasks.iter().any(|task| task.id == new_id) {
+            return Err("Yeni çalışma oluşturulamadı.");
+        }
+        let mut moved = source.clone();
+        moved.id = new_id;
+        moved.date = to.into();
+        moved.weekly = false;
+        moved.done.clear();
+        moved.skipped.clear();
+        tasks[index].skipped.push(from.into());
+        tasks.push(moved);
+    } else {
+        tasks[index].date = to.into();
+    }
+    Ok(())
 }
 fn weekday_index(date: &str) -> u32 {
     let mut y = date[0..4].parse::<u32>().unwrap();
@@ -191,6 +237,7 @@ pub fn valid(s: &State) -> bool {
                 && !t.title.trim().is_empty()
                 && t.title.len() <= 640
                 && t.done.iter().all(|d| valid_date(d))
+                && t.skipped.iter().all(|d| valid_date(d))
         })
         && s.cards.iter().all(|c| {
             valid_date(&c.due)
@@ -250,6 +297,75 @@ pub fn valid_date(s: &str) -> bool {
 #[cfg(test)]
 mod tests {
     use super::*;
+    fn study(weekly: bool) -> Task {
+        Task {
+            id: "task".into(),
+            title: "Çalışma".into(),
+            subject: "TYT Matematik".into(),
+            date: "2026-11-23".into(),
+            minutes: 45,
+            questions: 20,
+            weekly,
+            done: vec![],
+            skipped: vec![],
+        }
+    }
+    #[test]
+    fn changing_schedule_does_not_hide_completed_history() {
+        let mut task = study(true);
+        task.done.push("2026-11-23".into());
+        task.date = "2026-12-01".into();
+        assert!(occurs(&task, "2026-11-23"));
+        assert!(!occurs(&task, "2026-11-30"));
+    }
+    #[test]
+    fn move_once_changes_date_without_duplicating_or_resetting_targets() {
+        let mut tasks = vec![study(false)];
+        move_task(&mut tasks, "task", "2026-11-23", "2026-11-24").unwrap();
+        assert_eq!(tasks.len(), 1);
+        assert_eq!(tasks[0].questions, 20);
+        assert!(occurs(&tasks[0], "2026-11-24"));
+        assert!(!occurs(&tasks[0], "2026-11-23"));
+    }
+    #[test]
+    fn move_weekly_only_skips_the_selected_occurrence_and_keeps_history() {
+        let mut tasks = vec![study(true)];
+        tasks[0].done.push("2026-11-23".into());
+        move_task(&mut tasks, "task", "2026-11-30", "2026-12-01").unwrap();
+        assert_eq!(tasks.len(), 2);
+        assert!(occurs(&tasks[0], "2026-11-23"));
+        assert!(!occurs(&tasks[0], "2026-11-30"));
+        assert!(occurs(&tasks[0], "2026-12-07"));
+        assert!(occurs(&tasks[1], "2026-12-01"));
+        assert!(!tasks[1].weekly);
+        assert!(tasks[1].done.is_empty());
+        let before = serde_json::to_string(&tasks).unwrap();
+        assert!(move_task(&mut tasks, "task", "2026-11-30", "2026-12-02").is_err());
+        assert_eq!(serde_json::to_string(&tasks).unwrap(), before);
+    }
+    #[test]
+    fn completed_or_invalid_moves_leave_the_original_untouched() {
+        let mut tasks = vec![study(false)];
+        tasks[0].done.push("2026-11-23".into());
+        let before = serde_json::to_string(&tasks).unwrap();
+        for (from, to) in [
+            ("2026-11-23", "2026-11-24"),
+            ("2026-11-23", ""),
+            ("2026-11-23", "2026-11-23"),
+            ("2026-11-24", "2026-11-25"),
+        ] {
+            assert!(move_task(&mut tasks, "task", from, to).is_err());
+            assert_eq!(serde_json::to_string(&tasks).unwrap(), before);
+        }
+    }
+    #[test]
+    fn schema_v1_tasks_without_exceptions_remain_readable() {
+        let mut old = serde_json::to_value(study(true)).unwrap();
+        old.as_object_mut().unwrap().remove("skipped");
+        let loaded: Task = serde_json::from_value(old).unwrap();
+        assert!(loaded.skipped.is_empty());
+        assert!(occurs(&loaded, "2026-11-30"));
+    }
     #[test]
     fn weekly_tasks_do_not_appear_before_start() {
         let t = Task {
@@ -261,6 +377,7 @@ mod tests {
             questions: 20,
             weekly: true,
             done: vec![],
+            skipped: vec![],
         };
         assert!(!occurs(&t, "2026-12-21"));
         assert!(occurs(&t, "2026-12-28"));
